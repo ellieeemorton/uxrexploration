@@ -20,7 +20,13 @@ have a single correct answer:
      while writing the document.
   3. Every `Support: <word> (n of N) -- [ID, ID, ...]` (and `Counter-evidence:`)
      line's stated participant count matches the number of *distinct*
-     participant_id values behind the listed excerpt IDs.
+     participant_id values behind the listed excerpt IDs, AND <word> is the
+     correct qual-quant lexicon word for that n/N fraction per
+     references/theme-building.md -- a right count with the wrong word
+     (e.g. "some" where the fraction calls for "a couple") is still a
+     failure. Support/Counter-evidence lines are only recognized at the
+     start of a line, so prose that merely *mentions* "Support:" while
+     describing this citation format can't be mistaken for a data line.
 
 Expected excerpts.jsonl record shape (one JSON object per line):
   {
@@ -39,10 +45,40 @@ import sys
 from pathlib import Path
 
 QUOTE_RE = re.compile(r'“([^”]+)”\s*\(([A-Za-z0-9_.\-]+)\)')
+# Anchored to the start of a line (^ with MULTILINE) so a document that merely
+# *mentions* "Support:" in passing prose -- e.g. describing this citation
+# format -- can't have its "word" group swallow everything up to the next
+# real data line's "(n of N)". Without the anchor, [^(]* is unbounded and
+# will span paragraphs looking for the first "(" anywhere later in the text.
 SUPPORT_RE = re.compile(
-    r'(Support|Counter-evidence):\s*([^(]*)\((\d+)\s+of\s+(\d+)\)\s*[—\-]+\s*\[([^\]]*)\]',
-    re.IGNORECASE,
+    r'^(Support|Counter-evidence):\s*([^(\n]*)\((\d+)\s+of\s+(\d+)\)\s*[—\-]+\s*\[([^\]]*)\]',
+    re.IGNORECASE | re.MULTILINE,
 )
+
+# references/theme-building.md's qual-quant lexicon, scored by percentage of N.
+# Checked top-down after the exact-n special cases; first percentage match wins.
+PERCENT_BANDS = [
+    (0.85, {"nearly all"}),
+    (0.65, {"most"}),
+    (0.55, {"more than half"}),
+    (0.45, {"about half"}),
+    (0.25, {"some", "a few"}),
+]
+
+
+def expected_words(n: int, big_n: int):
+    """Returns the set of acceptable words for n of big_n, or None if no band applies."""
+    if n == big_n:
+        return {"all"}
+    if n == 1:
+        return {"one"}
+    pct = n / big_n
+    for threshold, words in PERCENT_BANDS:
+        if pct >= threshold:
+            return words
+    if n == 2:
+        return {"a couple"}
+    return None  # below every band (e.g. n=0, or n>2 falling under 25% of a huge N)
 
 
 def normalize(text: str) -> str:
@@ -129,10 +165,12 @@ def check_support_lines(doc_text: str, excerpts: dict):
     failures = []
     checked = 0
     for match in SUPPORT_RE.finditer(doc_text):
-        label, _word, n_str, _big_n, id_list = match.groups()
+        label, word, n_str, big_n_str, id_list = match.groups()
         checked += 1
+        word = word.strip().lower()
         ids = [i.strip() for i in id_list.split(",") if i.strip()]
         stated_n = int(n_str)
+        big_n = int(big_n_str)
         participants = set()
         missing = []
         for excerpt_id in ids:
@@ -148,6 +186,13 @@ def check_support_lines(doc_text: str, excerpts: dict):
             failures.append(
                 f'{label} line claims n={stated_n} but the {len(ids)} cited excerpt IDs '
                 f'resolve to {len(participants)} distinct participants: {sorted(participants)}'
+            )
+            continue  # word-band check against a wrong n would just be noise
+        allowed_words = expected_words(stated_n, big_n)
+        if allowed_words is not None and word not in allowed_words:
+            failures.append(
+                f'{label} line says "{word}" for {stated_n} of {big_n}, but references/theme-building.md\'s '
+                f'lexicon calls for "{" or ".join(sorted(allowed_words))}" at that fraction'
             )
     return checked, failures
 
