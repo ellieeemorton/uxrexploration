@@ -1,0 +1,1 @@
+Asked current lender for original contract. Failed to materialize original contract within allotted time period. Request to have debt judged as paid in full.

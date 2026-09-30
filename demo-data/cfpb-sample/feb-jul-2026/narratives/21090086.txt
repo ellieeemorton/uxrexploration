@@ -1,0 +1,1 @@
+On XX/XX/year>, I paid the remaining interest on loan XXXX in full, which put it in a negative balance of - {$1.00}. I also paid in full loan XXXX, which now has a negative balance of - {$0.00}. It's been almost 8 months, and neither loan has been marked as " paid in full, '' nor did I receive a refund.
