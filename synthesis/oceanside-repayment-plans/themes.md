@@ -57,7 +57,7 @@ Counter-evidence: no counter-evidence observed (self-reported history — there'
 
 ---
 
-## Theme: Self-reported ease or clarity is repeatedly contradicted by observed friction or by the participant's own later statements
+## Theme: Self-reports — of ease, of intent, of scanning order — are repeatedly contradicted by observed behavior or by the participant's own later statements
 
 Support: some (4 of 9) — [T3-L96, T4-L48, T7-L62, T7-L64, T9-L58]
 Counter-evidence: no counter-evidence observed
@@ -65,7 +65,7 @@ Counter-evidence: no counter-evidence observed
 > “Yeah, pretty easy. I guess.” (T3-L96) — said after 25 seconds of silent scrolling back and forth (T3-L88), then followed minutes later by a failed sort-header click (T3-L104) and a validation error (T3-L118) that she also downplayed: “It was fine. It just didn't like the comma.” (T3-L122)
 > “Yeah. Easy enough. I didn't really use it.” (T9-L58)
 
-P3 shows this pattern most extensively and is discussed on her own in the report (her low-confidence, deferential style is worth naming directly rather than folding entirely into a count). P4's stated scanning order contradicts his own cursor (see the first theme above). P7 repeatedly states firm intentions (“I'd definitely use that, cause income-linked depends on what you make.”, T7-L62) that his own subsequent behavior doesn't follow (doesn't click the estimator field, T7-L64). P9 volunteers the contradiction himself in the same breath. **Implication for the brief's background question:** self-reported satisfaction or clarity ratings can't be taken at face value in this data — for nearly half the sample, they were directly contradicted by what the same participant did or said minutes apart.
+**Retitled after a closer self-audit:** the original title said "self-reported ease or clarity" for all four members, which only accurately describes two of them. P3 and P9 make actual ease/satisfaction claims that are contradicted. P4 and P7 are a different kind of say/do gap: P4's stated *scanning order* contradicts his own cursor (Finding 1's evidence, not an ease rating), and P7 states a firm *intent* (“I'd definitely use that, cause income-linked depends on what you make.”, T7-L62) that his own subsequent behavior doesn't follow (never clicks the estimator field, T7-L64) — also not an ease rating. All four are real, verified say/do gaps, and grouping them makes a real point (self-report of any kind is unreliable in this data), but if you'd rather split this into two more precisely-scoped themes — "self-reported ease contradicted" (P3, P9 — a couple, 2 of 9) and "stated intent/order contradicted by behavior" (P4, P7 — a couple, 2 of 9) — that's a reasonable call and would change both from "some (4 of 9)" to two "a couple (2 of 9)" findings. Left merged here pending your preference. **Implication for the brief's background question:** self-reported satisfaction, intent, or recollection can't be taken at face value in this data — for nearly half the sample, some form of self-report was directly contradicted by what the same participant did or said minutes apart.
 
 ---
 
