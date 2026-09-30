@@ -18,44 +18,48 @@ Counter-evidence: no clean counter-evidence observed — see caveats below
 
 ## Theme: Despite scanning monthly first, nearly all borrowers substantively engage with total cost and/or payoff date at some point
 
-Support: nearly all (8 of 9) — [T1-L57, T2-L64a, T3-L180, T4-L56, T5-L94, T6-L98, T8-L60, T9-L48]
-Counter-evidence: no counter-evidence observed; P7's account is entirely hypothetical (T7-L62) and unverified — excluded from both support and counter
+Support: nearly all (8 of 9) — [T1-L57, T2-L64a, T3-L180, T4-L56, T5-L94, T6-L98, T8-L60, T9-L48, T9-L66b]
+Counter-evidence: no counter-evidence observed; P7's account is entirely hypothetical (T7-L78) and unverified — excluded from both support and counter
 
 > “I look at the total paid, because the lower payment is obviously going to cost more in the long run.” (T1-L57)
 > “Standard says twenty-one. I owe nineteen. So it's two thousand in interest. And the income one says twenty-six. Five thousand more.” (T4-L56)
+> “All of them have me paying way more than I borrowed. Lowest total's, let me look, forty-one. On twenty-one!” (T9-L66b)
 
-**This directly complicates H1.** H1 predicted borrowers pay little attention to total interest paid. Engagement quality varies a lot in depth — P4 and P9 do detailed interest-cost arithmetic unprompted; P3's engagement is thin (“Um. A little. I saw there was dates.”, T3-L180) and she never spontaneously calculates a cost difference. But eight of nine participants demonstrably look past the monthly figure, most without being asked to. H1 is better read as "monthly is scanned first" than "total is ignored."
+**This directly complicates H1.** H1 predicted borrowers pay little attention to total interest paid. Engagement quality varies a lot in depth — P4 does detailed interest-cost arithmetic unprompted (T4-L56); P9's T9-L48 shows payoff-date/duration arithmetic rather than interest-cost arithmetic specifically, but he separately does compare total paid to loan amount (T9-L66b). P3's engagement is thin (“Um. A little. I saw there was dates.”, T3-L180) and she never spontaneously calculates a cost difference. But eight of nine participants demonstrably look past the monthly figure, most without being asked to. H1 is better read as "monthly is scanned first" than "total is ignored."
 
 ---
 
-## Theme (testing H2): Table information density draws almost no unprompted "overwhelming" reaction, and the one instance that did is contaminated by a leading question
+## Theme (testing H2): Table information density gets almost no unprompted "overwhelming" reaction to *today's* table, though one participant does recall a past comparison as having too many numbers
 
-Support: one (1 of 9) — [T5-L84] — this is the sole excerpt supporting H2's proposed mechanism (density itself causing disengagement)
-Counter-evidence: nearly all (8 of 9) — [T1-L111a, T2-L54, T3-L92, T4-L74, T6-L128b, T7-L52, T8-L38, T9-L54]
+Support: a couple (2 of 9) — [T5-L84, T6-L40a] — the two clearest density/too-many-numbers statements in the dataset
+Counter-evidence: most (7 of 9) — [T1-L111a, T2-L54, T3-L92, T4-L74, T6-L128b, T7-L52, T9-L54]
 
 > “Yeah, kind of. I mean, yeah. There's a lot of columns.” (T5-L84) — following the leading question at T5-L82, "Wasn't that table confusing?"
+> “Too many numbers.” (T6-L40a) — unprompted, but describing a *past* comparison attempt, not today's live table
 > “Not really. I mean, the table's pretty clear. Four plans is a manageable number. If it was like ten I'd be lost.” (T1-L111a)
 > “The payoff date. Cause that's what makes me mad. No, sorry, it's not the table. It's the situation. The table's fine. It says what it says.” (T9-L54)
 
-P5 is the only participant who agreed the table was confusing, and she did so directly after a leading question; her own unprompted first reaction minutes earlier was “A lot of numbers. But kind of organized.” (T5-L80), and by the end of the session she explicitly walked the "simplify" framing back: “I don't think so. The table's fine. I was just saying it was busy. It's not bad.” (T5-L218). **H2, as stated (density causes disengagement), has no clean support in this data.** Several participants raise *different* complaints that could be mistaken for a density complaint — P2 and P6 say the plan/column labels assume knowledge they don't have (jargon, not density) — but nobody who wasn't led to it called four plans or three columns too many to take in.
+**Revised after verification review** (see `verification-findings.md`): an earlier draft of this theme claimed P5 was the *only* participant who ever said anything resembling an overwhelm/density complaint. That was wrong — P6 independently says, unprompted, that a past comparison attempt involved "too many numbers" (T6-L40a; also cited in the abandonment theme below). The picture is more precise than either "one complaint" or "no complaints": P5's complaint is about *today's* table and was elicited by a leading question ("Wasn't that table confusing?", T5-L82); her own unprompted first reaction minutes earlier was “A lot of numbers. But kind of organized.” (T5-L80), and by the end of the session she walked the "simplify" framing back entirely: “I don't think so. The table's fine. I was just saying it was busy. It's not bad.” (T5-L218). P6's complaint is about a *past* comparison, possibly a different version of the tool, and isn't repeated when he actually works through today's table — his only complaint about today's table is that the plan labels assume knowledge he doesn't have (T6-L128b, jargon, not density). P8 is a related but distinct partial case, noted below rather than counted here: she isn't counted as support because she never calls the *plan or column count* itself too much, but her reaction to the table format generally is genuinely mixed rather than a clean "fine" — “tables make my eyes slide off. I teach eighth graders, I'm a paragraph person.” (T8-L38), paired with “That it's clean. Nothing shouting at me. But I don't know what to do with it.” (T8-L44). **Net for H2:** even generously counting both P5 and P6, at most 2 of 9 participants said anything resembling a density/overwhelm complaint, one of them leading-induced and later reversed, the other about a different session entirely — H2's specific mechanism (today's density causing today's disengagement) has no clean support in this data.
 
 ---
 
-## Theme: Past abandonment of a plan comparison is real, but participants attribute it to the emotional/financial content of the numbers or to external interruption — not to the table's density
+## Theme: Past abandonment of a plan comparison is reported by four participants, for reasons that mostly aren't about the table's density
 
-Support: some (4 of 9) — [T2-L32, T5-L20, T6-L36, T9-L26]
-Counter-evidence: no counter-evidence observed (this is a self-reported-history claim; there's no "didn't abandon" counter-case to weigh against it)
+Support: some (4 of 9) — [T2-L32, T2-L36, T5-L20, T5-L28, T6-L36, T6-L40a, T6-L40b, T9-L26]
+Counter-evidence: no counter-evidence observed (self-reported history — there's no "didn't abandon" case to weigh against it, and this evidence type can't be directly observed, only reported)
 
 > “No, cause of the numbers. You look at it and it's like oh you can pay less a month and only pay another twenty grand. Terrific.” (T2-L36)
+> “I got overwhelmed I think. It was right after I started my job and there were forms and a new apartment lease and, yeah. I figured I'd come back. I didn't.” (T5-L28)
+> “Too many numbers.” (T6-L40a)
 > “Once, a few years back. I was looking for anything. And I got to the end and thought this is just rearranging the same bad deal. Which chair you want on the Titanic.” (T9-L26)
 
-**This is a distinct, important nuance from the theme above.** Four participants describe having quit a past comparison attempt before finishing. Their stated reasons differ from each other (P2: the tradeoffs themselves felt bad; P5: overwhelm compounded by an unrelated stressful week — new job, new apartment lease; P6: too many numbers plus a work interruption; P9: fatalistic conclusion that every option is equally bad) but none cites the table's column or plan count specifically as the obstacle. Real disengagement is happening; H2's proposed *mechanism* (density) isn't what these four participants say caused it.
+**This is a distinct, important nuance from the theme above, and it is entirely self-reported — none of it was observed.** Four participants describe having quit a past comparison attempt before finishing, for reasons that differ from each other: P2 says it was the tradeoffs themselves ("cause of the numbers," T2-L36); P5's overwhelm was compounded by an unrelated stressful week — a new job and a new apartment lease, in the same breath as the overwhelm itself (T5-L28); P9 concluded fatalistically that every option is equally bad (T9-L26). **P6 is a genuine partial exception to the "not density" framing, not a clean fit for it:** he says "too many numbers" (T6-L40a) before mentioning a work interruption (T6-L40b) — "too many numbers" is hard to cleanly separate from a density complaint, whatever his reaction to today's table (see the theme above). So three of the four attributions (P2, P5, P9) don't mention column or plan count at all; P6's does, in a self-reported account of a different, past session. Real disengagement is happening for all four; H2's proposed mechanism (density) is a clean non-explanation for three of them and a plausible partial explanation for the fourth.
 
 ---
 
 ## Theme: Self-reported ease or clarity is repeatedly contradicted by observed friction or by the participant's own later statements
 
-Support: some (4 of 9) — [T3-L96, T4-L48, T7-L64, T9-L58]
+Support: some (4 of 9) — [T3-L96, T4-L48, T7-L62, T7-L64, T9-L58]
 Counter-evidence: no counter-evidence observed
 
 > “Yeah, pretty easy. I guess.” (T3-L96) — said after 25 seconds of silent scrolling back and forth (T3-L88), then followed minutes later by a failed sort-header click (T3-L104) and a validation error (T3-L118) that she also downplayed: “It was fine. It just didn't like the comma.” (T3-L122)
@@ -67,7 +71,7 @@ P3 shows this pattern most extensively and is discussed on her own in the report
 
 ## Theme: The payoff-date column header looks sortable but does nothing when clicked
 
-Support: a couple (2 of 9) — [T3-L104, T4-L76]
+Support: a couple (2 of 9) — [T3-L104, T3-L106, T4-L76]
 Counter-evidence: no counter-evidence observed (no one else tested it; P7 expected to be able to filter/sort but never actually clicked to check, T7-L52)
 
 > “clicks Payoff date header x2, nothing” (T3-L104), followed by “Oh it doesn't do anything.” (T3-L106)
@@ -79,33 +83,34 @@ Only two participants tried it, which is a thin count — but this is directly o
 
 ## Theme: The income estimator sits below the table and is easy to miss; several borrowers wouldn't have used it, or briefly mistook its default number for their own
 
-Support: more than half (5 of 9) — [T1-L103, T2-L106, T4-L128a, T5-L130, T6-L90]
-Counter-evidence: some (2 of 9) — [T3-L118, T8-L90] — P3 and P8 both found and used the estimator without any noted difficulty. P9's non-use is a deliberate choice for a different reason (“I know my income. I don't need a box. I make what I make.”, T9-L90), not a discoverability failure, so he's excluded from both sides.
+Support: more than half (5 of 9) — [T1-L103, T2-L106, T2-L118, T4-L128a, T5-L130, T5-L136, T6-L90]
+Counter-evidence: a couple (2 of 9) — [T3-L118, T8-L90] — P3 and P8 both found and used the estimator without any noted difficulty. P9's non-use is a deliberate choice for a different reason (“I know my income. I don't need a box. I make what I make.”, T9-L90), not a discoverability failure, so he's excluded from both sides.
 
 > “The income estimate thing. I mean, once I found it, it was fine, it worked. But it was below the table, and I almost didn't scroll down. If I hadn't been curious about where the number came from, I'd have just taken the first numbers as mine.” (T1-L103)
 > “I didn't know what to expect, I never touch that. I never knew it was there, honestly. It's way down.” (T2-L118)
 > “I don't know, it didn't say example. To me it looked like mine. Somebody could make a real bad call off that.” (T6-L94)
 
-Two related failure modes are bundled here: (a) not discovering the estimator at all without being prompted (P2, P5), and (b) discovering it late enough to have briefly taken the default income-linked figure at face value (P1, P4 near-miss; P2, P6 actually did so). P7 is a related but distinct case — he predicted confidently he'd use it (T7-L62) and then didn't, even when invited to (T7-L64, T7-L74) — that's an intent/behavior gap, not a discoverability failure, so he's not counted here.
+**Revised after verification review:** an earlier draft labeled this counter-evidence "some (2 of 9)" — wrong; per the lexicon, exactly 2 participants is "a couple," not "some." Also, an earlier draft placed P5 in the "didn't discover the estimator" group on the strength of “I saw it. Didn't use it.” (T5-L130) — but that excerpt says she *did* see it, which directly contradicts using her as a non-discovery example. Her actual fit here is narrower and still real: she saw it and did not use it until the moderator directly invited her to ("Want to try?"), at which point she typed her income only then (“Types 46000. HH size left at 1. Update. Income-Linked goes ~200 -> ~228” — T5-L136) rather than seeking it out herself — a "wouldn't have used it unprompted" case, not a "never found it" case. Two related patterns are bundled in this theme: (a) not using the estimator without being prompted, whether or not it was ever noticed (P2, needing to be told directly — “You didn't tell me to.”, T2-L106; and P5), and (b) discovering it late enough to have briefly taken the default income-linked figure at face value (P1, P4 near-miss; P2, P6 actually did so). P7 is a related but distinct case — he predicted confidently he'd use it (T7-L62) and then didn't, even when invited to (T7-L64, T7-L74) — that's an intent/behavior gap on a feature he clearly did notice, not a discoverability failure, so he's not counted here.
 
 ---
 
 ## Theme: Borrowers want the assumptions behind "projected" figures disclosed, not just labeled
 
-Support: most (6 of 9) — [T1-L77, T2-L84b, T4-L70, T6-L82, T7-L86, T9-L50]
+Support: most (6 of 9) — [T1-L77, T2-L84b, T4-L70, T6-L82, T7-L86, T9-L74]
 Counter-evidence: a couple (2 of 9) — [T3-L116, T5-L158]
 
 > “And, hm, this little "i" thing, projected, projected on what. I'm self-employed, one year I make ninety, next year fifty-five, so when it says hundred forty for the Income one I'm like, based on WHAT. It doesn't say what income it's using. Last year? Average? And if they redo it every year then the total at the bottom is, it's made up. It's a guess wearing a tie. If it just said "this assumes you make X" I'd know how far to trust it. Right now, I don't.” (T2-L84b)
 > “This. Income-Linked. A hundred ninety something. Almost half. But I don't see what it's based on. I'd want to know that.” (T6-L82)
+> “I don't trust anything they say. Not after the capitalization. Nobody told me when it happened. You find out later in the mail in some letter in legalese. So projected. What are you gonna do to it between now and then.” (T9-L74)
 > Counter: “It was fine. It says it includes interest.” (T3-L116); “Not really. Everything says that.” (T5-L158, said in direct response to the leading question at T5-L156, "Does that bother you?")
 
-**Important complication for H3:** H3 frames the root cause as the tool not explaining how the numbers are calculated, rather than the numbers themselves being wrong. P9's version of this complaint (T9-L74) is different in kind: his distrust of "projected" predates this tool and is rooted in a past experience of undisclosed interest capitalization by a previous servicer — no amount of in-tool explanation would necessarily resolve it, because the wound is that a number changed on him before without warning, not that today's tooltip is unclear. H3 may hold for most of this theme's support but not cleanly for P9.
+**Important complication for H3:** H3 frames the root cause as the tool not explaining how the numbers are calculated, rather than the numbers themselves being wrong. P9's inclusion here (T9-L74, above) is different in kind from the other five: his distrust of "projected" predates this tool and is rooted in a past experience of undisclosed interest capitalization by a previous servicer — no amount of in-tool explanation would necessarily resolve it, because the wound is that a number changed on him before without warning, not that today's tooltip is unclear. H3 may hold for most of this theme's support but not cleanly for P9. (An earlier draft cited a thinner, more generic P9 excerpt here — "projected is a joke... like a weatherman," T9-L50 — that established relevance but not this specific point; T9-L74 is the excerpt this paragraph is actually about, and is now what's counted.)
 
 ---
 
 ## Theme: Borrowers want the interest rate itself shown directly on the comparison page
 
-Support: a couple (2 of 9) — [T6-L134, T9-L78]
+Support: a couple (2 of 9) — [T6-L134, T6-L138, T9-L78, T9-L84]
 Counter-evidence: no counter-evidence observed
 
 > “I wanted to see what the interest rate was. I think it's somewhere. I went to that documents thing first thinking it'd be there, then I just went to the plans.” (T6-L134), and afterward: “Yeah that was me looking for the rate. Didn't find it.” (T6-L138)
@@ -117,14 +122,14 @@ Thin (2 of 9) but specific and directly actionable — the rate is absent from t
 
 ## Theme: Trust in the table often rests on verifying one familiar number and extending that confidence to the rest, without being able to check the others
 
-Support: some (3 of 9) — [T3-L220, T4-L96, T6-L102]
-Counter-evidence: a couple (2 of 9) — [T1-L65, T4-L100] — P1 withholds the extension for the plan he's unfamiliar with, and P4, despite being counted in Support above, names the same flaw in his own reasoning unprompted
+Support: some (3 of 9) — [T3-L220, T4-L96, T4-L100, T6-L102]
+Counter-evidence: one (1 of 9) — [T1-L65]
 
 > “I think so. They matched my standard one. So the others are probably right too.” (T3-L220)
-> “The Standard within a couple dollars. Which is how I know to trust the rest. Though, the rest I can't check, so, you see the problem.” (T4-L100) — the same participant supporting this pattern also names its flaw unprompted
+> “The Standard within a couple dollars. Which is how I know to trust the rest. Though, the rest I can't check, so, you see the problem.” (T4-L100)
 > Counter: “Mostly? I mean, for my current plan, yes, because I know roughly what I pay. For the income one I'm not sure how they're guessing my income.” (T1-L65) — P1 explicitly does *not* extend trust to the unfamiliar plan
 
-P5 shows a related but distinct trust basis — authority rather than verification ("It's their own tool so it should be right," T5-L150) — noted under Individual Observations rather than folded into this count, since it's a different mechanism.
+**Revised after verification review:** an earlier draft filed T4-L100 as counter-evidence, on the reasoning that P4 names a flaw in the pattern ("the rest I can't check, so, you see the problem"). That was a miscategorization — read plainly, T4-L100 affirms the exact pattern this theme describes (verify one number, extend trust to the rest one can't check); noticing your own reasoning is shaky is not the same as not doing it. It's now counted as a second supporting excerpt for P4, alongside T4-L96. The only genuine counter-example in this data is P1, who explicitly declines to extend trust to a plan he hasn't personally verified (T1-L65) — that drops counter-evidence to "one (1 of 9)," not "a couple." P5 shows a related but distinct trust basis — authority rather than verification ("It's their own tool so it should be right," T5-L150) — noted under Individual Observations rather than folded into either count here, since it's a different mechanism, not a counter-case to this one.
 
 ---
 
