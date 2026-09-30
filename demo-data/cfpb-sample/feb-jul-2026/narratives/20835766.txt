@@ -1,0 +1,1 @@
+XX/XX/XXXX : payment made, disbursement across loans was applied incorrectly causing an overpayment of {$310.00} Requested refund in writing via Mohela account messaging on XX/XX/XXXX, XX/XX/XXXX, XX/XX/XXXX, and XX/XX/XXXX. Attempted to call for help several times but could not ever get through to an actual person.

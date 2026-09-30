@@ -1,0 +1,51 @@
+TO : XXXX XXXX, XXXX ( Primary Originator/Seller ) [ XXXX Address from your records ] AND MOHELA ( Missouri Higher Education Loan Authority ) ( Current Servicer ) XXXX XXXX XXXX XXXX XXXX MO XXXX XXXX : FINAL NOTICE OF DISPUTE / DEMAND FOR FULL VALIDATION PURSUANT TO 15 U.S.C. 1692g Account Number ( s ) : [ Your Account XXXX XXXXXXXX ] CIP/Batch ID ( if known ) : [ Look for any identifiers on old statements ] CUSIP Request : Pending Validation To the General Counsels of XXXX and MOHELA : I am writing to formally dispute the validity of the debt referenced above. This letter serves as a continuation of my complaint filed with the Consumer Financial Protection Bureau ( CFPB ) and addresses the insufficient response provided by Navient on XX/XX/year>, which attempted to redirect this matter to MOHELA. 
+
+Your attempt to close my complaint by stating the loan was " transferred '' is procedurally improper and substantively deficient. A transfer of servicing does not extinguish the originator 's liability regarding the chain of title, nor does it satisfy the legal requirement for debt validation. 
+1. Jurisdictional and Standing Arguments The " Transfer '' Defense is Invalid. 
+XXXX, you originated this debt. As confirmed by recent SEC filings and your own corporate disclosures, XXXX XXXX, XXXX acts as the " Master Servicer and XXXX '' for various SLM Student Loan Trusts, while XXXX XXXX, XXXX acts as the " Depositor ''. Even though MOHELA now handles the day-to-day servicing, XXXX retains ownership and XXXX over the economic terms of the loans. The agreement between XXXX and MOHELA explicitly states that MOHELA has not purchased the loans ; XXXX has merely outsourced the administrative functions. 
+
+MOHELA, as the current servicer, you are not immune to this dispute. You are now the face of this debt. If XXXX can not prove the chain of title and that this debt was lawfully assigned to a trust, you are servicing an invalid instrument. 
+XXXX. Demand for Full Validation ( Chain of XXXX & Securitization ) Under the Fair Debt Collection Practices Act ( FDCPA ) and Regulation F ( XXXX XXXX XXXX ), validation requires more than a statement of the balance. It requires proof that the entity collecting has the legal right to do so. Copies of old XXXX XXXX XXXX ( MPNs ) are insufficient. 
+
+To validate this debt, I demand the production of the following specific documents within 15 days : The Indenture and Sale Agreement : If this loan was securitized, it was conveyed via a Sale Agreement to a Trust. I demand a copy of the relevant Indenture ( similar to the XXXX Student Loan Trust XXXX or XXXX indentures on file with the SEC ). 
+
+Identification of the Trustee : Provide the name and contact information for the Indenture Trustee ( e.g., XXXX XXXX XXXX XXXX XXXX ) and the Eligible Lender Trustee who holds legal title to the loans. 
+
+XXXX XXXX : Provide the CUSIP number for the specific Note ( tranche ) that allegedly contains my loan. If my loan was pooled into a security, it has a CUSIP. Failure to provide this suggests the debt is not held in the manner required by law. 
+
+Chain of Title Flow : Provide a transactional history showing the path of the debt from origination ( Navient ) to the Depositor ( XXXX Funding ) to the Trust, and finally to the current holder. 
+
+If the loan was not securitized, provide a notarized affidavit from a corporate XXXX stating that the debt remains on XXXX 's balance sheet and has not been sold, nor the economic interest transferred. 
+XXXX. The Consequence of Non-Validation : XXXX Balance and Deletion Required If XXXX and MOHELA can not produce the documentation demanded abovespecifically the chain of title, the trust documents, and the XXXX is an admission that the debt is not real and can not be enforced. 
+
+A debt that can not be validated is a nullity. It has no legal standing. Therefore, if you fail to provide these documents, you are hereby on notice that : You must immediately instruct all credit reporting agencies ( XXXX XXXX XXXX ) to delete the trade lines associated with this account. A " XXXX balance '' is insufficient ; the entire entry must be removed because it was never proven valid. 
+
+You must cease all collection activities permanently. 
+
+You must cease all reporting activities permanently. 
+
+By failing to provide the validation documents requested, you are implicitly admitting that the debt is unenforceable and that any reporting of this debt on my credit file constitutes a fraudulent misrepresentation under the Fair Credit Reporting Act ( FCRA ). 
+4. The D.O.G.E. Data Glitch and Inaccurate Reporting Navient 's reliance on corrupted dataspecifically the " D.O.G.E. '' systemic glitchrenders any accounting provided thus far presumptively inaccurate. You have a duty to ensure data integrity before transferring accounts to MOHELA or reporting to credit bureaus. 
+
+Furthermore, XXXX was recently ordered to pay {$120.00} XXXX to settle claims of loan mismanagement with the CFPB and was banned from servicing federal student loans. Given this history of non-compliance, I have no reason to trust that the data transferred to MOHELA is accurate. I demand a " life of loan '' accounting from XXXX that reconciles every XXXX from origination to transfer. 
+XXXX. XXXX Rights XXXX ( XXXX & XXXX ) XXXX statutory law, this dispute touches upon fundamental human rights. 
+
+XXXX XXXX XXXX and XXXX XXXX XXXX establish that higher education shall be made equally accessible to all on the basis of capacity. 
+
+The securitization and speculative trading of student loan debt transforms a social goodeducationinto a commodity. When the chain of title is broken, or when debts are validated based on corrupted data, it creates a clouded title on a human right. 
+
+You can not claim the protections of commerce ( selling the debt as a security ) while ignoring the burdens of proof required by law. I demand that you prove you have clear title to this debt, otherwise your collection efforts constitute an unjust enrichment derived from the obstruction of my right to education. 
+
+XXXX. Data Privacy and Sale of XXXX XXXX, there are also allegations and concerns regarding the sale or transfer of borrower information. The transfer of servicing to MOHELA does not XXXX an automatic right to the endless sharing of my private financial data without explicit, renewed consent. I demand an accounting of what specific data points were transferred and which third-party data brokers or investors have received access to my file. 
+
+Conclusion and Demands To be clear, copies of statements do not validate a debt. To close this matter, I demand the following : From XXXX : The full securitization XXXX XXXX, including the name of the Indenture Trustee, the Pooling and Servicing Agreement ( or Indenture ), and the specific CUSIP for the trust containing my loan. 
+
+From XXXX : A verification that the data transferred to MOHELA was scrubbed of the " D.O.G.E. '' glitch errors, or a correction of the record if it was not. 
+
+From MOHELA : A freeze on all collection and credit reporting activities until XXXX provides the validation demanded above. 
+
+From Both : If the validation documents are not produced within 15 days of receipt of this letter, you must immediately delete all trade lines associated with this account from my credit reports and provide written confirmation of such deletions. Your failure to validate constitutes your admission that the debt is not real and can not be enforced. 
+
+Until these documents are produced, the debt is disputed, and the validity is unproven. Continued collection or reporting on an unvalidated debt will be met with further legal action, including complaints to the FTC regarding pattern and practice violations and a suit for damages under the FDCPA. 
+
+Sincerely, XXXX XXXX Without Prejudice | XXXX XXXX

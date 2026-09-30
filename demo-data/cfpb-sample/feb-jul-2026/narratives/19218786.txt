@@ -1,0 +1,11 @@
+I enrolled in autopay for {$14.00} per month on XXXX XXXX. The authorization was only for {$14.00}, and that amount was consistently withdrawn through XX/XX/XXXX. 
+
+In XX/XX/XXXX, Aidvantage debited {$1000.00} from my bank account without my authorization. I did not authorize any one-time payment, lump-sum payment, or change to my autopay amount. 
+
+Immediately after the unauthorized debit, I contacted Aidvantage. The representative placed my account into forbearance and submitted a refund request for the {$1000.00}. I was told I would receive an answer by XX/XX/XXXX. I have received no response and no refund. 
+
+After this occurred, I also applied for deferment and was approved. I do not authorize any autopay going forward. 
+
+This unauthorized withdrawal caused my bank account to be overdrawn and resulted in late payment of other household bills. I have filed an unauthorized ACH dispute with my bank. 
+
+I am requesting a full reversal of the {$1000.00}, written confirmation that this debit was unauthorized, confirmation that my deferment/forbearance status is active, and confirmation that all autopay is canceled.
