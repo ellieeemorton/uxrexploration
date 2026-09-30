@@ -21,13 +21,13 @@ Label every theme in the findings section with exactly one of these. Do not roun
 
 ## Required citation format (parsed by `scripts/verify_quotes.py`)
 
-Every verbatim quote in the report, in every section, is written as:
+Every verbatim quote in the report, in every section, is written with **curly quotes** as the outer delimiter:
 
 ```
-"exact quote text" (ID)
+“exact quote text” (ID)
 ```
 
-— exactly matching how quotes are cited in `themes.md` (`theme-building.md`). Do not paraphrase and then add an ID as if it were a citation of a verbatim quote; if you're paraphrasing, don't put it in quotation marks.
+— exactly matching how quotes are cited in `themes.md` (`theme-building.md`). Use curly quotes (“ ”), not straight ones, even though it looks like a typographic nicety: source text routinely contains its own straight-quoted dialogue or tooltip text (a moderator note reading `Says "I assumed it would sort."`, a tooltip reading `"Includes projected interest"`), and a straight-quote delimiter would terminate at that first embedded quote instead of the citation's real end — `verify_quotes.py` would silently fail to check the rest, or match the wrong span. Never truncate a quote with an ellipsis to fit it in a sentence — the substring has to be exact, so quote the full span or don't quote it at all. Do not paraphrase and then add an ID as if it were a citation of a verbatim quote; if you're paraphrasing, don't put it in quotation marks.
 
 Every stated participant count is written as:
 

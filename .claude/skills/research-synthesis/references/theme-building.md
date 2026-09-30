@@ -57,9 +57,9 @@ Each theme is a heading followed by a `Support:` line and a `Counter-evidence:` 
 Support: most (6 of 8) — [T1-L12, T2-L40, T3-L8, T4-L21, T5-L5, T6-L33]
 Counter-evidence: one (1 of 8) — [T7-L14]
 
-> "representative verbatim quote" (T1-L12)
-> "another representative verbatim quote" (T4-L21)
+> “representative verbatim quote” (T1-L12)
+> “another representative verbatim quote” (T4-L21)
 ```
 
-- The bracketed ID list after `Support:` / `Counter-evidence:` must contain every excerpt ID being counted — this is what lets a script recompute the distinct-participant count and check it against the stated word/fraction.
-- Quotes are written as `"exact text" (ID)` — this exact citation format is required in `report.md` too (see `report-template.md`) because `verify_quotes.py` parses it with a fixed pattern.
+- The bracketed ID list after `Support:` / `Counter-evidence:` must contain every excerpt ID being counted — this is what lets a script recompute the distinct-participant count and check it against the stated word/fraction. Every ID mentioned in prose as supporting or countering a theme belongs in that list too — a script can't see an ID you only wrote in a sentence.
+- Quotes are written as `“exact text” (ID)` with **curly** outer quotes — this exact citation format is required in `report.md` too (see `report-template.md`) because `verify_quotes.py` parses it with a fixed pattern, and source text often contains its own straight-quoted dialogue or tooltip text that a straight-quote delimiter would collide with. Never trim a quote with an ellipsis — quote the exact full substring or don't quote it.

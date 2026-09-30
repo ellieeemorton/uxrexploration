@@ -6,9 +6,14 @@ quote actually support the claim -- is the fresh-context subagent's job, see
 references/verification-subagent.md). This script only checks things that
 have a single correct answer:
 
-  1. Every `"quoted string" (ID)` in the document is a real excerpt ID, and
+  1. Every `“quoted string” (ID)` in the document is a real excerpt ID, and
      the quoted text is a verbatim (whitespace-normalized) substring of that
-     excerpt's recorded text in excerpts.jsonl.
+     excerpt's recorded text in excerpts.jsonl. The outer delimiter is the
+     curly quote pair “...” (U+201C/U+201D), not straight quotes --
+     source text often contains its own straight-quoted dialogue or tooltip
+     text (e.g. Says "I assumed it would sort."), and a straight-quote
+     delimiter would terminate at the first embedded quote instead of the
+     real end.
   2. That excerpt's recorded text is itself actually found in the original
      source file at/near the line or row it claims -- this catches drift
      introduced while building excerpts.jsonl, not just drift introduced
@@ -33,7 +38,7 @@ import re
 import sys
 from pathlib import Path
 
-QUOTE_RE = re.compile(r'"([^"]+)"\s*\(([A-Za-z0-9_.\-]+)\)')
+QUOTE_RE = re.compile(r'“([^”]+)”\s*\(([A-Za-z0-9_.\-]+)\)')
 SUPPORT_RE = re.compile(
     r'(Support|Counter-evidence):\s*([^(]*)\((\d+)\s+of\s+(\d+)\)\s*[—\-]+\s*\[([^\]]*)\]',
     re.IGNORECASE,
