@@ -1,5 +1,5 @@
 {
-  "note": "Answer key for a synthetic interview dataset about a fictional servicer (Oceanside Loan Servicing). Each transcript has one 'primary' planted issue and several 'additional' ones; additional issues were added in a second pass to make the data messier. Line numbers are approximate and refer to the files in ../transcripts/ as generated; they will drift if the files are edited. P1 is intentionally clean.",
+  "note": "Answer key for a synthetic interview dataset about a fictional servicer (Oceanside Loan Servicing). Each transcript has one 'primary' planted issue and several 'additional' ones; additional issues were added in a second pass to make the data messier. Line numbers are approximate and refer to the files in ../transcripts/ as generated; they will drift if the files are edited. P1 is intentionally clean. A third pass removed some neat observer commentary, made some notes terser, removed confirmation-screen steps in P4 and P6, and added interruptions and tangents (P2-P9).",
   "issues": [
     {
       "transcript_id": "P2",
@@ -40,8 +40,8 @@
       "transcript_id": "P3",
       "type": "additional",
       "approximate_location": "Lines ~172-178 and ~188-192",
-      "what_was_planted": "The moderator loses their place ('let me check my... did I ask about'), and late in the session P3 admits for the first time that she was going up and down because she wasn't sure her number was saved or that she had done it right.",
-      "what_a_careful_researcher_should_notice": "The most honest explanation of the backtracking only came out after an unplanned, off-list question. Re-asking open questions later can surface what 'fine' was hiding."
+      "what_was_planted": "Late in the session P3 is asked off-list why she kept going between the estimator and the table; she says she wanted to make sure the number 'saved' or that she 'did it right', then trails off ('I don't know. Just checking.'). The moderator had lost their place just before.",
+      "what_a_careful_researcher_should_notice": "A hint at what the backtracking was about, but vague and uncorroborated by any note. Treat it as a lead, not a finding."
     },
     {
       "transcript_id": "P3",
@@ -187,8 +187,8 @@
       "transcript_id": "P8",
       "type": "additional",
       "approximate_location": "Lines ~84-86 (note), ~126-130, ~159 (post-session note)",
-      "what_was_planted": "She says the tool doesn't show her count, without looking in the top nav; the notes show 'Account' and 'Forgiveness Programs' items she never clicked. The moderator asks whether she looked there, and a post-session note says she emailed that the forgiveness tab does have a payment count (unverified).",
-      "what_a_careful_researcher_should_notice": "An absence claim that may be wrong. The finding is about discoverability, not missing functionality, and should be checked against the product before being reported."
+      "what_was_planted": "She says the tool doesn't show her qualifying payment count, without looking in the top nav; the notes show 'Account' and 'Forgiveness Programs' items she never clicked. The moderator half-asks whether she looked there without finishing the thought. Nothing confirms whether the count is shown there.",
+      "what_a_careful_researcher_should_notice": "An absence claim that may be wrong. It is unresolved in the data: the finding is at most 'she didn't look', and needs checking against the product before being reported."
     },
     {
       "transcript_id": "P8",
@@ -207,9 +207,9 @@
     {
       "transcript_id": "P9",
       "type": "additional",
-      "approximate_location": "Lines ~74-78",
-      "what_was_planted": "They say the interest rate 'isn't even on here'; the observer notes small grey text under the table reads 'Your current interest rate: 7.25%' and that they scrolled past it twice. The moderator doesn't point it out, and later almost does ('did you see the thing under the table?') before stopping.",
-      "what_a_careful_researcher_should_notice": "A claim contradicted by the screen. The real finding is that the rate is present but effectively invisible (small grey text), and he also says later they are squinting at the grey text. Reporting 'the page doesn't show the rate' would be wrong."
+      "approximate_location": "Lines ~74-78 and ~130",
+      "what_was_planted": "They say the interest rate 'isn't even on here'. The notes record small grey text under the table that might be the rate (the notetaker couldn't read it on the shared screen); nobody checks. Later they mention squinting at the small grey text.",
+      "what_a_careful_researcher_should_notice": "The claim may be contradicted by the screen, but the notes are uncertain. Report as 'possibly present but hard to see', and verify against the page instead of repeating 'the page doesn't show the rate'."
     },
     {
       "transcript_id": "P9",
@@ -224,6 +224,55 @@
       "approximate_location": "Lines ~14-16, ~98-102, ~18-24",
       "what_was_planted": "The moderator mislabels the forbearance periods as a deferment; P9 corrects, then admits they're unsure whether it was two or three, and adds an unrelated remark about a prior servicer and a promissory note they don't remember receiving.",
       "what_a_careful_researcher_should_notice": "Their loan history is fuzzy and partly off-topic, so specifics in their account should not be treated as facts."
+    },
+    {
+      "transcript_id": "P2",
+      "type": "additional",
+      "approximate_location": "Lines ~60-70 and ~80",
+      "what_was_planted": "Takes a work phone call in the middle of the session (~2 min) and goes on a tangent about an autopay reversal and a late notice that resurfaces as venting.",
+      "what_a_careful_researcher_should_notice": "Off-topic account problems (autopay, late notice) are separate from the comparison page and shouldn't be mixed into findings about it."
+    },
+    {
+      "transcript_id": "P4",
+      "type": "additional",
+      "approximate_location": "Lines ~98-112",
+      "what_was_planted": "Drifts into pension formulas and his wife's illness, the moderator offers sympathy and brings him back; none of it relates to the plan comparison.",
+      "what_a_careful_researcher_should_notice": "Context about why he thinks this way, not evidence about the tool. Also, the session skipped the confirmation screen."
+    },
+    {
+      "transcript_id": "P5",
+      "type": "additional",
+      "approximate_location": "Lines ~44-52",
+      "what_was_planted": "Interrupted by a text from her dog walker; the moderator has to ask what they were discussing.",
+      "what_a_careful_researcher_should_notice": "Interruption of her train of thought; her answer about who she asks for help is short and incidental."
+    },
+    {
+      "transcript_id": "P6",
+      "type": "additional",
+      "approximate_location": "Lines ~58-62, ~140",
+      "what_was_planted": "Takes a work call during the session (~2 min) and later drifts into stories about his wife and taxes.",
+      "what_a_careful_researcher_should_notice": "Tangents, not evidence about the tool. Note that this session skips the tooltip and confirmation steps."
+    },
+    {
+      "transcript_id": "P7",
+      "type": "additional",
+      "approximate_location": "Lines ~60-62, ~132",
+      "what_was_planted": "Asks who the study is for and voices suspicion about 'independent' research; later his connection degrades and he turns his video off.",
+      "what_a_careful_researcher_should_notice": "Participant suspicion about the sponsor may color what they say about trust. Video off means notes on him are less reliable afterward."
+    },
+    {
+      "transcript_id": "P8",
+      "type": "additional",
+      "approximate_location": "Lines ~46-50",
+      "what_was_planted": "Drifts into a story about a student presenting on Minecraft scoring before being brought back.",
+      "what_a_careful_researcher_should_notice": "Incidental tangent with no bearing on the tool."
+    },
+    {
+      "transcript_id": "P9",
+      "type": "additional",
+      "approximate_location": "Lines ~60-64, ~150",
+      "what_was_planted": "Steps away to direct a coworker, complains about overtime, and later criticizes the screener survey wording ('satisfied with Oceanside').",
+      "what_a_careful_researcher_should_notice": "Off-topic complaints. The comment about the screener is feedback on the study, not the tool."
     }
   ],
   "baseline_transcript": {
