@@ -1,7 +1,7 @@
 import csv,collections,random,os,re
 csv.field_size_limit(10**9)
 rows=list(csv.DictReader(open('filtered.csv',encoding='utf-8')))
-N=40;CAP=8;MINCO=8
+N=40;MINCO=8
 sub=collections.Counter(r['Sub-issue'] for r in rows)
 tot=sum(sub.values())
 raw={k:N*v/tot for k,v in sub.items()}
@@ -10,14 +10,14 @@ for k in sorted(raw,key=lambda k:raw[k]-alloc[k],reverse=True)[:N-sum(alloc.valu
 print("allocation",alloc,sum(alloc.values()))
 random.seed(20260930)
 byc=collections.Counter();sel=[]
-for k,n in alloc.items():
-    pool=[r for r in rows if r['Sub-issue']==k]; random.shuffle(pool); got=0
-    for r in pool:
-        if got==n: break
-        if byc[r['Company']]>=CAP: continue
-        byc[r['Company']]+=1; sel.append(r); got+=1
-assert len(sel)==N and len(byc)>=MINCO,(len(sel),len(byc))
-print("companies",len(byc),dict(byc))
+for attempt in range(1,1001):
+    byc=collections.Counter();sel=[]
+    for k,n in alloc.items():
+        sel+=random.sample([r for r in rows if r['Sub-issue']==k],n)
+    byc=collections.Counter(r['Company'] for r in sel)
+    if len(byc)>=MINCO: break
+print("attempts",attempt,"companies",len(byc),dict(byc))
+assert len(sel)==N and len(byc)>=MINCO
 d='/home/user/uxrexploration/demo-data/cfpb-sample'; os.makedirs(d,exist_ok=True)
 for r in sel:
     open(f"{d}/{r['Complaint ID']}.txt",'w',encoding='utf-8').write(r['Consumer complaint narrative'].strip()+"\n")
