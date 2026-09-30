@@ -1,57 +1,233 @@
 {
-  "note": "Answer key for a synthetic interview dataset about a fictional servicer (Oceanside Loan Servicing). Line numbers refer to the .md files in ../transcripts/ as generated and will drift if the files are edited. P1 is intentionally a clean baseline with no planted issue.",
+  "note": "Answer key for a synthetic interview dataset about a fictional servicer (Oceanside Loan Servicing). Each transcript has one 'primary' planted issue and several 'additional' ones; additional issues were added in a second pass to make the data messier. Line numbers are approximate and refer to the files in ../transcripts/ as generated; they will drift if the files are edited. P1 is intentionally clean.",
   "issues": [
     {
       "transcript_id": "P2",
-      "approximate_location": "Background (lines ~7-30) and screen-share task (lines ~35-80); the useful comment is in the middle of the screen-share task, around line 63, between a rant about a neighbor's bank rate and a demand for a 'lower my rate' button",
-      "what_was_planted": "The participant spends most of the session angry about the 7.4% interest rate and how little the balance has moved after a decade, which is about the loan and not the comparison page. Buried mid-rant is one specific tool-related observation: the projected total and income-linked payment don't say what income they assume, which matters because his self-employed income swings from year to year.",
-      "what_a_careful_researcher_should_notice": "Most of this transcript is not evidence about the tool, and the participant says so himself ('the page is okay... it's the loan that's bad'). The one usable insight (assumptions behind the estimate are invisible, so he can't judge how far to trust it) is easy to miss or to drown in the emotional material. Separate the loan grievance from the usability content, and note that the assumption concern is echoed, independently, by P1 and P6 about the placeholder income figure."
+      "type": "primary",
+      "approximate_location": "Most of the transcript; the useful comment is mid-session around line 78, sandwiched between the neighbor-dentist rant (~line 70) and the 'lower my rate' demand (~line 80)",
+      "what_was_planted": "Long stretches of anger about the 7.4% interest rate and the loan itself. Buried in the middle is one real tool observation: the projected totals and income-linked payment don't say what income they assume, which matters because his income swings year to year.",
+      "what_a_careful_researcher_should_notice": "Most of this session is not evidence about the tool (he says so: 'the page is okay... it's the loan that's bad'). The one usable insight is easy to lose in the venting. The same placeholder/assumption concern shows up independently in P1 and P6."
+    },
+    {
+      "transcript_id": "P2",
+      "type": "additional",
+      "approximate_location": "Lines ~48-58 (wrong nav item, moderator misnames plans), ~94-96 (leading 'It was clear, then?'), ~100-112 (estimator never introduced until asked)",
+      "what_was_planted": "Moderator slips: works from an outdated mockup and misstates the plan names, asks a leading question about the confirmation screen ('It was clear, then?') and gets a one-word yes, and forgets to direct him to the estimator until he asks. P2 also opens the Payments page first, not Repayment.",
+      "what_a_careful_researcher_should_notice": "The 'it was clear' answer was invited by the question and P2 was not engaged with the page. He also says he never knew the estimator existed ('it's way down'), which is a discoverability finding that came out only by accident because the moderator forgot to prompt it."
+    },
+    {
+      "transcript_id": "P2",
+      "type": "additional",
+      "approximate_location": "Lines ~126-130",
+      "what_was_planted": "Says the payoff date of 2034 looks wrong against his statement and that he once calculated something later on his phone, then concedes he may have done it wrong and did not check it during the session.",
+      "what_a_careful_researcher_should_notice": "An unverified distrust claim. It is hearsay about his own arithmetic, not something observed on screen, and should not be recorded as 'the payoff date is inaccurate'."
     },
     {
       "transcript_id": "P3",
-      "approximate_location": "Screen-share task, roughly lines 57-200 (most concentrated at lines ~65-125 and the confirmation screen near the end); 'it was fine' repeats in Part 3",
-      "what_was_planted": "The participant says 'it was fine' in response to nearly every question, while the bracketed notes show real difficulty: clicking the wrong nav item (Payments) first, clicking a non-sortable header twice, reading the tooltip twice, failing on a comma in the income field and having to retype it, bouncing between the estimator and the table several times, re-reading the Graduated description twice, and lingering on the confirmation screen. She also admits she doesn't know what 'Flex', 'projected' or 'graduated' mean and that she didn't change plans before because she feared clicking the wrong thing.",
-      "what_a_careful_researcher_should_notice": "Her stated satisfaction is contradicted by observed behavior. A careful reader weighs what she did over what she said, and notices she is a low-confidence, deferential participant (asking 'did I do okay?') who defaults to 'fine'. Concrete friction points: nav label ambiguity, input validation on commas, unclear plan names and jargon, and uncertainty about whether the estimate changed. Treating 'it was fine' as a positive finding would be a mistake."
+      "type": "primary",
+      "approximate_location": "Whole screen-share (lines ~70-200); 'it was fine' at lines ~110, 116, 170 and in the wrap-up",
+      "what_was_planted": "Says 'it was fine' repeatedly while the notes show real difficulty: clicked Payments instead of Repayment, clicked a non-sortable header twice, re-read the tooltip, got an error on a comma in the income field, bounced between the estimator and table three or four times, re-read the Graduated description, and lingered on the confirmation screen. Admits she doesn't know 'projected', 'flex' or 'graduated'.",
+      "what_a_careful_researcher_should_notice": "Stated satisfaction is contradicted by observed behaviour. She is a deferential, low-confidence participant (asks 'did I do okay?') who defaults to 'fine'. Friction: nav labels, number-field validation, jargon, uncertainty about whether the estimate saved."
+    },
+    {
+      "transcript_id": "P3",
+      "type": "additional",
+      "approximate_location": "Line ~88-90 (leading 'You found that pretty easily then, yeah?')",
+      "what_was_planted": "The moderator asks a leading question right after she took a wrong turn in the navigation. She agrees ('pretty easy, I guess'), and the observer notes she might not have said it unprompted.",
+      "what_a_careful_researcher_should_notice": "Another case where her words came from the question, not her experience. The wrong-turn click just before it is the behaviour that matters."
+    },
+    {
+      "transcript_id": "P3",
+      "type": "additional",
+      "approximate_location": "Lines ~172-178 and ~188-192",
+      "what_was_planted": "The moderator loses their place ('let me check my... did I ask about'), and late in the session P3 admits for the first time that she was going up and down because she wasn't sure her number was saved or that she had done it right.",
+      "what_a_careful_researcher_should_notice": "The most honest explanation of the backtracking only came out after an unplanned, off-list question. Re-asking open questions later can surface what 'fine' was hiding."
+    },
+    {
+      "transcript_id": "P3",
+      "type": "additional",
+      "approximate_location": "Line ~176-180, plus follow-up ~'matched my standard'",
+      "what_was_planted": "Her reason for trusting the numbers is that the Standard row matched what she pays, so 'the others are probably right too'.",
+      "what_a_careful_researcher_should_notice": "A weak basis for trust that generalizes from one verified number to unverified ones. Note it as reasoning, not as a finding that the numbers are trustworthy."
     },
     {
       "transcript_id": "P4",
-      "approximate_location": "Throughout; first statement at line ~13-17 (Background), then lines ~37-67, ~75, ~99-107 and the closing remarks. He is the longest transcript (about 1,750 words, mostly participant speech).",
-      "what_was_planted": "The participant talks far more than anyone else and holds a strong, unusual position that the monthly payment figure is misleading and should be hidden or moved behind a click, with total cost and payoff date shown first. He repeats it in many framings: 'the wrong number', 'a trap', 'a mood', 'dessert', 'it hypnotizes', the anchoring effect, asking a runner how they feel instead of their time, and a recommender that starts with 'when do you want to be done?'.",
-      "what_a_careful_researcher_should_notice": "Volume and repetition are not the same as prevalence. This is one person's unusual, strongly held view, and it is contradicted by other participants in the set, most of whom say they look at the monthly payment first. He is also a retired physics teacher who plots his own balance, so he is not typical. His secondary, more useful points (income box should be above the table; no tooltip on payoff date; dates can't be sorted) are made in passing and are easy to lose under the main theme. Count him once, not once per repetition."
+      "type": "primary",
+      "approximate_location": "Throughout; first at line ~12-14, then ~30-48, 74-86, 98-130. He is the longest participant by speech volume.",
+      "what_was_planted": "Talks the most by far and repeats a strong, unusual position that the monthly payment is a trap and should be hidden or moved behind a click, with total cost and payoff date shown first. Variants: 'the wrong number', 'a mood', 'dessert', 'it hypnotizes', the anchoring effect, asking a runner how they feel instead of their time, a recommender that begins with 'when do you want to be done?'.",
+      "what_a_careful_researcher_should_notice": "Volume and repetition are not prevalence. This is one person's unusual view, and most others say they look at the monthly payment first. He is a retired physics teacher with his own tracking spreadsheet and is not typical. Count him once, not once per restatement. Note his more useful minor points (income box above the table, sortable dates, assumption behind the date)."
+    },
+    {
+      "transcript_id": "P4",
+      "type": "additional",
+      "approximate_location": "Line ~44 observer note about the cursor, vs his statements at ~12, ~60",
+      "what_was_planted": "He says he always looks at the end date and total first, but the observer notes his cursor went to the monthly payment column first and stayed ~10 seconds before moving on.",
+      "what_a_careful_researcher_should_notice": "Another case of self-report not matching behaviour, including for the participant whose thesis is that nobody should look at the monthly figure first."
+    },
+    {
+      "transcript_id": "P4",
+      "type": "additional",
+      "approximate_location": "Lines ~62-68 and ~100-104, ~118",
+      "what_was_planted": "The moderator is confused about what he meant by 'first', asks him to restate, and lets him narrate hearsay (a colleague, a brother-in-law, his daughter) that is secondhand and only loosely connected to Oceanside.",
+      "what_a_careful_researcher_should_notice": "Anecdotes about other people's plans are not observations of this tool. His daughter's pushback (most people want to know they can make rent) is itself a useful counterpoint he dismisses."
+    },
+    {
+      "transcript_id": "P4",
+      "type": "additional",
+      "approximate_location": "Notes gap around lines ~64-70 ('notes missing')",
+      "what_was_planted": "The note-taker fell behind while he was talking, so part of what he said and did on screen during that stretch is not documented.",
+      "what_a_careful_researcher_should_notice": "Gaps in observation notes for the most talkative participant: don't fill them in from memory or assume what happened."
     },
     {
       "transcript_id": "P5",
-      "approximate_location": "Screen-share task: first leading question at line ~59 ('Wasn't that table confusing?'), second at line ~81 ('You'd probably want it simplified, right?')",
-      "what_was_planted": "The moderator asks two leading questions that supply the answer they expect. P5 agrees both times ('Yeah, kind of', 'Yeah, totally. Simpler would be better'). The bracketed notes show no hesitation or difficulty reading the table before or after the questions, and when asked what she would remove she can't name anything specific ('I don't know') and later says 'the table is fine. I was just saying it was busy.'",
-      "what_a_careful_researcher_should_notice": "The 'confusing' and 'should be simplified' statements come from the moderator's framing, not from the participant or her behavior. They should not be used as evidence that the table is confusing. The genuine content from P5 is narrower: she starts with the monthly payment, weighs the lower income-linked payment against a higher total, and says she doesn't know what she's looking at 'half the time', which fits her general uncertainty about the loan more than the table."
+      "type": "primary",
+      "approximate_location": "Line ~80 ('Wasn't that table confusing?') and line ~102 ('You'd probably want it simplified, right?')",
+      "what_was_planted": "Two leading questions supplying the expected answer; P5 agrees both times ('Yeah, kind of', 'Yeah totally, simpler would be better'). Notes show no struggle before or after, and when asked what to remove she can't name anything specific.",
+      "what_a_careful_researcher_should_notice": "The 'confusing' and 'simplify' statements come from the moderator's framing. Her own later comment, 'the table's fine, I was just saying it was busy', undercuts them. Do not count them as evidence."
+    },
+    {
+      "transcript_id": "P5",
+      "type": "additional",
+      "approximate_location": "Lines ~14 and ~42; ~162-164",
+      "what_was_planted": "The moderator asks twice what plan she's on (losing track of her earlier answer) and then asks whether 'standard' is the ten-year one, which she agrees to with 'I guess'.",
+      "what_a_careful_researcher_should_notice": "Low-quality confirmation: she isn't certain which plan she's on and agrees with the moderator's suggestion. Her plan status should be treated as unconfirmed."
+    },
+    {
+      "transcript_id": "P5",
+      "type": "additional",
+      "approximate_location": "Lines ~148-150; ~196-208",
+      "what_was_planted": "Says she trusts the numbers 'cause it's their own tool', then says she'd use a recommender because she doesn't know what she's looking at half the time, and accepts the moderator's 'what-if' paraphrase with 'Sure. A what-if.'",
+      "what_a_careful_researcher_should_notice": "Trust here is deference to the source, not a judgement about the numbers. The what-if idea is partly the moderator's wording."
+    },
+    {
+      "transcript_id": "P5",
+      "type": "additional",
+      "approximate_location": "Lines ~204-206 and ~98",
+      "what_was_planted": "She didn't use the estimator until asked, and said she'd probably use a recommender, but nothing on screen shows her seeking help or hesitating.",
+      "what_a_careful_researcher_should_notice": "Hypothetical enthusiasm for a recommender without behavioural support; lightly similar to P7's pattern."
     },
     {
       "transcript_id": "P6",
-      "approximate_location": "Early statement at line ~21 (Background: uses the monthly paper statement, rarely logs in); later contradicting statements at line ~47 (dashboard balance 'I check that pretty regular') and line ~121 (follow-up: 'I just look at the main screen. When I log in.'). Line ~85 has him cite the paper statement again.",
-      "what_was_planted": "P6 says early on that he doesn't use the website to check his balance, relying on the paper statement at the kitchen counter and logging in 'hardly ever'. During the task and again in the follow-up he says he checks the balance regularly on the front page of the site. He never acknowledges the difference, and the moderator does not probe it.",
-      "what_a_careful_researcher_should_notice": "These two accounts of how he monitors his loan can't both be fully true as stated. Either he checks both ways, or one of the statements is habit-talk or shaped by being on screen. Don't record a single 'how this participant checks balance' claim. Note the inconsistency, treat the observed behavior (he looks at the dashboard number immediately on login) as stronger evidence than the self-report, and flag it as something a follow-up question should have resolved."
+      "type": "primary",
+      "approximate_location": "Early: line ~20 (paper statement, 'hardly ever' logs in) ~22; later: line ~52 ('I check that pretty regular actually, it's right on the front') and ~146 ('I just look at the main screen when I log in'); ~92 he cites the paper statement again",
+      "what_was_planted": "Says he checks his balance on the paper statement and rarely uses the site, then describes checking it regularly on the site's front page, and never notices the difference.",
+      "what_a_careful_researcher_should_notice": "The two accounts of how he monitors his loan conflict. Don't record a single 'how this participant checks balance' claim. Observed behaviour (he looked at the dashboard balance straight away after logging in) outweighs the self-report, and a follow-up question was needed."
+    },
+    {
+      "transcript_id": "P6",
+      "type": "additional",
+      "approximate_location": "Line ~56 (note), ~112, ~134",
+      "what_was_planted": "He clicks into Statements & Documents on the way to Compare Plans without comment; only when asked later ('was there anything you couldn't find?') does he say he was looking for the interest rate and didn't find it.",
+      "what_a_careful_researcher_should_notice": "A missed-rate finding that appeared only because the moderator asked later; the observer did not interpret the click at the time. Note P9 also wanted the rate on the page."
+    },
+    {
+      "transcript_id": "P6",
+      "type": "additional",
+      "approximate_location": "Lines ~62-78 and ~112",
+      "what_was_planted": "The moderator supplies the explanation for why Graduated plans are a 'trap' ('it starts low and then it catches up to you?'); P6 says 'yeah exactly that', and later agrees the trap idea is why he declines. The source is hearsay about a coworker's truck lease.",
+      "what_a_careful_researcher_should_notice": "A leading paraphrase that P6 adopted. His reluctance to pick Graduated is partly the moderator's framing plus secondhand information."
+    },
+    {
+      "transcript_id": "P6",
+      "type": "additional",
+      "approximate_location": "Line ~72 (observer note)",
+      "what_was_planted": "He says his Standard payment is $340; the table shows $352. He doesn't notice or reconcile it, and later says the table matches his paper statement.",
+      "what_a_careful_researcher_should_notice": "A small numeric mismatch in his own recall, which also weakens his 'it matches my statement' claim as evidence of trust."
+    },
+    {
+      "transcript_id": "P6",
+      "type": "additional",
+      "approximate_location": "Line ~72-88 and ~158",
+      "what_was_planted": "Observer notes audio cut out for ~10 seconds around the Income-Linked comment, and a note flags 'may have missed something'.",
+      "what_a_careful_researcher_should_notice": "A recording gap around a key moment; the tone of that comment should not be inferred."
     },
     {
       "transcript_id": "P7",
-      "approximate_location": "Throughout, especially screen-share task lines ~37-110 and Part 3 lines ~111-141",
-      "what_was_planted": "Nearly everything P7 offers is hypothetical: 'I'd probably', 'I'd want', 'I'd definitely use that'. He says he would use the income calculator, enter about 90,000, screenshot the result, open a second tab with his statement, read the tooltip, read the fine print and set quarterly reminders. The bracketed notes show he never clicks into the income field, never finishes hovering over the tooltip, never clicks a plan, and sits motionless near the top of the table for long stretches. He also admits he has never actually built the comparison spreadsheet he describes.",
-      "what_a_careful_researcher_should_notice": "There is almost no observed behavior to back up what he says he would do. His stated preferences (a recommender, a timeline visual, saved scenarios) are aspirations, not evidence of what he does, and they should be weighted far below observed actions from other participants. Also notable: he said he'd read the tooltip, and when prompted didn't, and he didn't notice the estimator was on the page until he scrolled to it. A reader who tallies 'P7 wants a recommender' as support is counting talk, not use."
+      "type": "primary",
+      "approximate_location": "Throughout screen-share (lines ~56-125) and follow-up (lines ~126-168)",
+      "what_was_planted": "Almost everything is hypothetical: 'I'd probably', 'I'd want', 'I'd definitely use that'. Notes show he never clicks the income field, never finishes reading the tooltip, never clicks a plan, and sits motionless for long stretches. He admits he has never built the comparison spreadsheet he describes.",
+      "what_a_careful_researcher_should_notice": "There is very little observed behaviour behind what he says. His wants (recommender, timeline, saved scenarios) are aspirations. Note also that he offered to read the tooltip and then didn't."
+    },
+    {
+      "transcript_id": "P7",
+      "type": "additional",
+      "approximate_location": "Lines ~120-122",
+      "what_was_planted": "The moderator reads back 'I wrote down you'd go with income-linked' and asks whether he means flexibility or a lower payment; P7 says 'both I guess'.",
+      "what_a_careful_researcher_should_notice": "The participant's answer shifts to fit the moderator's question. His reason for choosing the plan is unclear and partly supplied by the moderator."
+    },
+    {
+      "transcript_id": "P7",
+      "type": "additional",
+      "approximate_location": "Line ~134",
+      "what_was_planted": "The moderator asks 'That'd be helpful, a recommendation, right?' and P7 replies 'Yeah I'd love that'. Later, given a fuller question, he says he would bail after three or four questions.",
+      "what_a_careful_researcher_should_notice": "A leading question that produced enthusiasm; his own follow-up shows limits on when he'd actually use it."
+    },
+    {
+      "transcript_id": "P7",
+      "type": "additional",
+      "approximate_location": "Lines ~28, ~98-100",
+      "what_was_planted": "Claims he'd screenshot results and open his statement side by side, then admits he has never done that for this loan and doesn't have his statement.",
+      "what_a_careful_researcher_should_notice": "Stated habits are aspirational and contradicted by his own admissions."
     },
     {
       "transcript_id": "P8",
-      "approximate_location": "Interrupted answer: Background, line ~27, cut off mid-sentence by the moderator (the moderator returns to it at line ~95 and P8 has lost the thread). Vivid line: screen-share task, line ~45 ('like reading a menu in a restaurant where the prices change while you're reading them').",
-      "what_was_planted": "(a) P8 starts to explain that what matters in choosing a plan is the count of qualifying public-service payments and whether switching plans resets it, and that the tool doesn't show this. The moderator cuts her off to move to the task, and when revisited later she loses the thread and gives a flatter answer. She does return to the gap a couple of times during the task (no indication of whether a plan counts toward the public-service track; nothing on the confirmation page about the count). (b) Separately, she produces a vivid, quotable line comparing the table to a menu whose prices change as you read. She immediately concedes the prices don't literally change, and the screen notes show the table stays fixed throughout; no other participant describes anything like it.",
-      "what_a_careful_researcher_should_notice": "(a) The interrupted answer is possibly the most decision-relevant content in the set (a dimension the comparison table ignores entirely for public-service borrowers) and was never fully captured, so it should be treated as an open lead needing a follow-up rather than a finding. (b) The menu line is memorable but is one person's metaphor with no behavioral or cross-participant support, and she retracts its literal meaning; it should not be presented as representative or as evidence that numbers appear to shift. Quotability is not evidence."
+      "type": "primary",
+      "approximate_location": "Interrupted answer: line ~24-26 (Background), moderator returns at ~118-124 and P8 loses the thread ('what was the question?'). Vivid line: line ~44 ('like reading a menu in a restaurant where the prices change while you're reading them')",
+      "what_was_planted": "(a) She starts to explain that what matters is the qualifying payment count and whether switching plans resets it, and that the tool doesn't show it; the moderator cuts her off to get to the task, and she never recovers the thread. (b) She offers a vivid line about the table being like a menu whose prices change; she immediately concedes that they don't literally change and the notes show the table stays static. No other participant reports anything similar.",
+      "what_a_careful_researcher_should_notice": "(a) Possibly the most decision-relevant lead in the set, and it was never captured. Treat it as an open question for follow-up. (b) A quotable metaphor with no behavioural or cross-participant support, retracted in her next line. It should not be presented as representative, and quotability is not evidence."
+    },
+    {
+      "transcript_id": "P8",
+      "type": "additional",
+      "approximate_location": "Lines ~76-80",
+      "what_was_planted": "After her partial answer resurfaces, the moderator asks 'So you'd want the qualifying count shown on the plan table?' and she says 'Yes. Exactly.'",
+      "what_a_careful_researcher_should_notice": "Even though the idea came from her, this is the moderator's phrasing and placement ('on the plan table') being adopted, which makes it hard to tell where she'd actually want it."
+    },
+    {
+      "transcript_id": "P8",
+      "type": "additional",
+      "approximate_location": "Lines ~84-86 (note), ~126-130, ~159 (post-session note)",
+      "what_was_planted": "She says the tool doesn't show her count, without looking in the top nav; the notes show 'Account' and 'Forgiveness Programs' items she never clicked. The moderator asks whether she looked there, and a post-session note says she emailed that the forgiveness tab does have a payment count (unverified).",
+      "what_a_careful_researcher_should_notice": "An absence claim that may be wrong. The finding is about discoverability, not missing functionality, and should be checked against the product before being reported."
+    },
+    {
+      "transcript_id": "P8",
+      "type": "additional",
+      "approximate_location": "Lines ~102-106 (note), ~92-96",
+      "what_was_planted": "Her connection froze for ~20 seconds mid-sentence; she asked 'did you get that?' and the moderator says 'most of it'. Elsewhere she admits she doesn't know which plan she's on or how the public-service program relates to plans.",
+      "what_a_careful_researcher_should_notice": "Part of her reasoning about why she'd stay put is missing from the record. Her confusion about her own plan status affects how much weight her choice carries."
     },
     {
       "transcript_id": "P9",
-      "approximate_location": "Background (lines ~9-30), early screen-share (lines ~35-40), tooltip/trust exchange (lines ~55-65) and the close (lines ~105-121)",
-      "what_was_planted": "P9 spends much of the session angry that after 13 years of payments he owes $29,000 on a $21,000 loan, blaming capitalized interest after forbearance periods. Most of it is about the loan, not the tool. He states the table is 'fine' and that he didn't dig in because he already 'knows how it ends'. A few tool-related crumbs are mixed in: the interest rate isn't displayed on the comparison page, the original borrowed amount could sit next to the balance, and he distrusts 'projected' totals.",
-      "what_a_careful_researcher_should_notice": "His distrust of the numbers comes from a prior bad experience with the servicer (an unexplained capitalization), not from anything he did on this page, and he did little real comparison, so this is weak evidence about the tool. What's usable is narrow: he wants the rate shown on the page, and his trust in projections depends on seeing assumptions. Compare with P2, who is similarly upset about the loan itself. Don't let two loud participants about the loan's terms inflate the apparent weight of 'users distrust the numbers shown'."
+      "type": "primary",
+      "approximate_location": "Background (lines ~12-22), early screen-share (lines ~38-70), wrap-up (lines ~138-152)",
+      "what_was_planted": "Spends much of the session angry that after 13 years they owes $29,000 on a $21,000 loan, blaming capitalized interest after forbearance. Most of it is about the loan, not the tool. They say the table is 'fine' and that they didn't really use it.",
+      "what_a_careful_researcher_should_notice": "Only a little of this is evidence about the tool. Their distrust of 'projected' totals comes from a past grievance, not from anything on this page. Together with P2, two loud participants about loan terms can overstate 'users distrust the numbers shown'."
+    },
+    {
+      "transcript_id": "P9",
+      "type": "additional",
+      "approximate_location": "Lines ~74-78",
+      "what_was_planted": "They say the interest rate 'isn't even on here'; the observer notes small grey text under the table reads 'Your current interest rate: 7.25%' and that they scrolled past it twice. The moderator doesn't point it out, and later almost does ('did you see the thing under the table?') before stopping.",
+      "what_a_careful_researcher_should_notice": "A claim contradicted by the screen. The real finding is that the rate is present but effectively invisible (small grey text), and he also says later they are squinting at the grey text. Reporting 'the page doesn't show the rate' would be wrong."
+    },
+    {
+      "transcript_id": "P9",
+      "type": "additional",
+      "approximate_location": "Lines ~56-58, ~148",
+      "what_was_planted": "The moderator asks 'So the table's easy to use then?' and 'Would you say the comparison is pretty helpful?' and P9 gives low-effort agreement ('Easy enough', 'Theylpful. For what it is').",
+      "what_a_careful_researcher_should_notice": "Leading questions met with disengaged agreement from someone who told them they didn't really use the table."
+    },
+    {
+      "transcript_id": "P9",
+      "type": "additional",
+      "approximate_location": "Lines ~14-16, ~98-102, ~18-24",
+      "what_was_planted": "The moderator mislabels the forbearance periods as a deferment; P9 corrects, then admits they're unsure whether it was two or three, and adds an unrelated remark about a prior servicer and a promissory note they don't remember receiving.",
+      "what_a_careful_researcher_should_notice": "Their loan history is fuzzy and partly off-topic, so specifics in their account should not be treated as facts."
     }
   ],
   "baseline_transcript": {
     "transcript_id": "P1",
-    "description": "No planted issue. The participant behaves in a fairly consistent, ordinary way: monthly payment first, then total and payoff date, finds the income estimator, notices the top figures are placeholders, and says which plan they'd stay on. Stated and observed behavior match. Note: a small amount of incidental signal (placeholder income figure, vague 'may vary' tooltip) is present, as in any real session, and it overlaps with P2 and P6."
+    "description": "No planted issue. Behaviour is consistent with what is said: monthly payment first, then total and payoff date, finds the income estimator, notices the top figures are placeholders, and says which plan they'd stay on. Incidental signal (placeholder income, vague 'may vary' tooltip) overlaps with P2 and P6, as in real data. P1 was deliberately left unchanged in the second pass."
   }
 }
