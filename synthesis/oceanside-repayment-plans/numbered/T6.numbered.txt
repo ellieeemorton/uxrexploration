@@ -1,0 +1,166 @@
+L1: # Transcript P6 — Oceanside Loan Servicing, Repayment Plan Comparison Study
+L2: 
+L3: Session: remote video call, screen-share. P6 joined from his truck for the first few minutes, then from his kitchen
+L4: Participant: P6 — 47, HVAC dispatcher, about $22,000 remaining (old undergrad loans, consolidated), Oceanside customer 9 years
+L5: Moderator: M
+L6: Notes: observer, NB = my side comment
+L7: 
+L8: ---
+L9: 
+L10: **M:** Okay, good, recording. Um, thanks for doing this. Why don't you start by, like, your loan situation?
+L11: 
+L12: **P6:** Yeah so I went back at like thirty-something, part time, while working. Community college then a four-year. Consolidated it all a few years back. I owe, I wanna say twenty-two? Twenty-two and some change. Supposed to be done in, six, seven years, I don't know.
+L13: 
+L14: **M:** What plan?
+L15: 
+L16: **P6:** The regular one. Fixed payment. Not fancy.
+L17: 
+L18: **M:** How do you keep track of it? Like, where you're at?
+L19: 
+L20: **P6:** Oh I don't really use the website for that. Every month they send the paper statement, it comes in, kitchen counter, I open it, look at the balance up top and file it in the folder. Forever I've done that. I'm old school. I don't trust the online thing to remember anything. Paper's paper.
+L21: 
+L22: **M:** Got it. So you don't log in much.
+L23: 
+L24: **P6:** Hardly ever. Maybe my bank info. That's it.
+L25: 
+L26: **M:** Do you ever call them?
+L27: 
+L28: **P6:** Couple times, when autopay messed up. The phone tree, you know, press one press two, then a person asks for your whole life story. But they're nice enough. One lady stayed on twenty minutes with me once. That sticks.
+L29: 
+L30: **M:** What's your, what's a typical day, for, like, does it leave time to do this stuff?
+L31: 
+L32: **P6:** Not really. Summer's crazy, everybody's AC dies the same week. So this kind of thing gets done on a Sunday night if at all. Sunday night, with a beer, and the kids yelling. That's the real conditions, if you want to know.
+L33: 
+L34: **M:** Ha, yes, that's helpful. And compared plans ever?
+L35: 
+L36: **P6:** Once or twice. My wife made me, she read an article. So I looked and honestly I couldn't tell if it was worth it so I dropped it.
+L37: 
+L38: **M:** Why couldn't you tell?
+L39: 
+L40: **P6:** Too many numbers. Then the phone rang at work, literally, I'm a dispatcher, the phone's always, and I never went back. And then you forget, you know, it's not like it's on fire. It's just sitting there.
+L41: 
+L42: **M:** Ha. Okay. Let's try it fresh. Share your screen, Compare Plans.
+L43: 
+L44: **P6:** How do I, is it the one at the bottom? Okay. There.
+L45: 
+L46: ---
+L47: 
+L48: ## Screen-share
+L49: 
+L50: [P6 shares. Login: password manager fails 1st try, autofills 2nd. Dashboard.]
+L51: 
+L52: **P6:** Okay. There's my number right there, see? Top of the page. Twenty-two thousand one-forty-something. I see that every time I log in. I check that pretty regular actually, it's right on the front.
+L53: 
+L54: [dashboard ~3s]
+L55: 
+L56: [Clicks Repayment, then Statements & Documents (?), backs out, then Compare Plans. ~20 sec total, no comment.]
+L57: 
+L58: [~11:30 P6's work phone goes off. Says "hold on, gotta take this." Speaks about a no-cool call on Delancey, sets a tech, comes back ~2 min]
+L59: 
+L60: **P6:** Sorry. Summer. What was I doing.
+L61: 
+L62: **M:** I'd asked what you see on the page.
+L63: 
+L64: [Table loads. Scrolls down. Stops.]
+L65: 
+L66: **P6:** Four plans. Standard's mine, that's three-forty. And this one, Graduated, starts like two-forty and climbs. I've heard about those, they're a trap if your pay doesn't go up.
+L67: 
+L68: **M:** Right, cause it, it starts low and then it, it sort of catches up to you?
+L69: 
+L70: **P6:** Yeah exactly that. Starts low, makes you feel great, couple years in you're paying more than you planned.
+L71: 
+L72: **M:** Okay. Where'd you hear that?
+L73: 
+L74: **P6:** Guy I work with did it with his truck. Not loans but same idea. Or, I mean, it was a lease thing. Whatever, same idea. The payment starts small and then, boom.
+L75: 
+L76: [Standard $352 on table]
+L77: 
+L78: **M:** What are you looking at now?
+L79: 
+L80: [hovering Income-Linked Flex row]
+L81: 
+L82: **P6:** This. Income-Linked. A hundred ninety something. Almost half. But I don't see what it's based on. I'd want to know that.
+L83: 
+L84: **M:** Anything on the page tell you?
+L85: 
+L86: **P6:** Let me look. I don't see it. Is it, hold on.
+L87: 
+L88: [scrolls down. finds estimator. reads ~8 sec. types 64000, HH 4. Update.]
+L89: 
+L90: **P6:** There we go. Now it's, what, two-ninety. Huh. That's not half anymore. So the first number was wrong basically.
+L91: 
+L92: **M:** Wrong, or just an example?
+L93: 
+L94: **P6:** I don't know, it didn't say example. To me it looked like mine. Somebody could make a real bad call off that.
+L95: 
+L96: [scrolls up, reads Total paid col. lips moving]
+L97: 
+L98: **P6:** Long one, Extended 25, forty-something thousand. Yeah no. That's a car's worth of interest.
+L99: 
+L100: **M:** Do you trust the numbers, generally?
+L101: 
+L102: **P6:** Standard, yeah, cause I know it. I looked at my balance right there and the payoff for Standard is, 2032 I think, and my paper statement says the same, so I'm kind of okay with it.
+L103: 
+L104: **M:** Nice. When'd you last look at that statement?
+L105: 
+L106: **P6:** Came a couple weeks ago. It's in the folder.
+L107: 
+L108: [hovers Select on Graduated a while]
+L109: 
+L110: **P6:** Part of me is still curious about this one. But no.
+L111: 
+L112: **M:** What draws you?
+L113: 
+L114: **P6:** Low payment, I'm not gonna lie. It's two-forty. I'd feel it in my pocket right away. That right-away thing. But I know better.
+L115: 
+L116: **M:** Because of the, the trap thing?
+L117: 
+L118: **P6:** Yeah.
+L119: 
+L120: **P6:** Yeah. I'd stick.
+L121: 
+L122: ---
+L123: 
+L124: ## Follow-up
+L125: 
+L126: **M:** What would you change, if anything?
+L127: 
+L128: **P6:** The example number. If the top one's a placeholder, say so. Big. Not tiny. And the table kind of assumes I know what it all is. "Income-Linked Flex," what's that in English. I got it eventually but I had to think. My wife wouldn't have. She'd have closed it.
+L129: 
+L130: **P6:** Oh, and the thing about my wife, she'd honestly be way better at this than me. She did the taxes this year and found like four hundred dollars we'd been missing. From the, there was a credit. But she hates the phone. Hates it. So I'm the one calls.
+L131: 
+L132: **M:** Was there anything you couldn't find?
+L133: 
+L134: **P6:** I wanted to see what the interest rate was. I think it's somewhere. I went to that documents thing first thinking it'd be there, then I just went to the plans.
+L135: 
+L136: **M:** Right, I saw you click in there.
+L137: 
+L138: **P6:** Yeah that was me looking for the rate. Didn't find it.
+L139: 
+L140: **M:** What do you look at first when you're comparing?
+L141: 
+L142: **P6:** The monthly. Then how long. Then total, if I'm feeling brave.
+L143: 
+L144: **M:** Why brave?
+L145: 
+L146: **P6:** Total's scary. Like seeing what you're paying for a house. I kind of don't wanna know.
+L147: 
+L148: **M:** Ha. Hang on, let me check my, I had a thing on my list about, [pause] trust. We did trust. Okay. Um, anything you want to add about where you, you know, where your balance stands? Like keeping an eye on the loan?
+L149: 
+L150: **P6:** Not really. I just look at the main screen when I log in. It's right on the front.
+L151: 
+L152: **M:** Okay. Fair enough. Uh, how would you feel if the tool asked you a few questions and then suggested a plan?
+L153: 
+L154: **P6:** I'd probably look at it. But I'd want to see the table too. I don't want it hiding stuff. "We picked this for you," that's a salesman. If it shows why, okay.
+L155: 
+L156: **M:** Anything you'd worry about if it picked for you?
+L157: 
+L158: **P6:** That it picks what's best for them. A guy sold me a service plan on a furnace I didn't need, I'm allergic now. Though a lot of folks would like it. My wife would. "Just tell me what to do."
+L159: 
+L160: **M:** Makes sense. Thank you, P6.
+L161: 
+L162: **P6:** No problem. Tell your boss fix the example thing.
+L163: 
+L164: **M:** I will.
+L165: 
+L166: [End ~30 min. NB: audio cut out for ~10 sec around the Income-Linked comment, may have missed something]

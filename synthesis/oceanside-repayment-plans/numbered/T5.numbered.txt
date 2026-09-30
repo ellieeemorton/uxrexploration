@@ -1,0 +1,232 @@
+L1: # Transcript P5 — Oceanside Loan Servicing, Repayment Plan Comparison Study
+L2: 
+L3: Session: remote video call, screen-share
+L4: Participant: P5 — 29, retail operations coordinator, about $33,000 remaining, four years in repayment
+L5: Moderator: M
+L6: Notes: observer (short notes)
+L7: 
+L8: ---
+L9: 
+L10: **M:** Okay, recording. Hi P5, thanks for doing this. So start by telling me about your loans, whatever comes to mind.
+L11: 
+L12: **P5:** Yeah. So I've got like three loans that got bundled? I went to a state school, finished 2021, so I've been paying since. About thirty-three left. I don't know exactly.
+L13: 
+L14: **M:** And what plan are you on?
+L15: 
+L16: **P5:** Standard, I think. I never changed it.
+L17: 
+L18: **M:** Have you looked at other ones?
+L19: 
+L20: **P5:** Once, when I started. Someone at work said look at the income one so I clicked around. But I didn't do anything.
+L21: 
+L22: **M:** What did you think of the page then?
+L23: 
+L24: **P5:** It was a lot. I don't remember really. I just closed it.
+L25: 
+L26: **M:** Why'd you close it?
+L27: 
+L28: **P5:** I got overwhelmed I think. It was right after I started my job and there were forms and a new apartment lease and, yeah. I figured I'd come back. I didn't.
+L29: 
+L30: **M:** Okay. And what do you do with money stuff generally, like, is there somebody you ask?
+L31: 
+L32: **P5:** My sister sometimes. She's better with it. Oh my gosh, sorry, my phone, it's my dog walker, one sec. [pause ~30 sec] Sorry. It's the thing where he texts a picture. Anyway.
+L33: 
+L34: **M:** What were we, I asked about who you ask.
+L35: 
+L36: **P5:** Oh. Yeah, my sister.
+L37: 
+L38: **M:** Was it the same site as now?
+L39: 
+L40: **P5:** I think it looked different. Older? Or maybe I just remember it being bad. I don't know, I was stressed.
+L41: 
+L42: **M:** Did anyone help?
+L43: 
+L44: **P5:** My mom, kind of. She said don't touch anything unless you have to. She had loans back in the day so she's nervous about it. I think I got that from her.
+L45: 
+L46: **M:** Okay. What plan are you on? Sorry, did I ask that.
+L47: 
+L48: **P5:** Yeah, standard.
+L49: 
+L50: **M:** Right, right. How often do you log in?
+L51: 
+L52: **P5:** Once a month? I look at what's due.
+L53: 
+L54: **M:** Did you talk to anyone at Oceanside, back then?
+L55: 
+L56: **P5:** No. I don't really call people. I hate calling people. I would rather just figure it out, like, online.
+L57: 
+L58: **M:** Okay. Do you like that, figuring it out online, or is it more that there's no choice?
+L59: 
+L60: **P5:** Both? I like it if it's clear. Like if I have to read a lot I get kind of, yeah.
+L61: 
+L62: **M:** Mm. Okay. [typing] Let's jump in. Share your screen and go to Compare Plans.
+L63: 
+L64: **P5:** Is it the whole screen or the window?
+L65: 
+L66: **M:** Whole screen's fine.
+L67: 
+L68: ---
+L69: 
+L70: ## Screen-share
+L71: 
+L72: [P5 shares. Logs in. Repayment > Compare Plans ~4 sec.]
+L73: 
+L74: **P5:** Okay, that's the page.
+L75: 
+L76: [reads plan names quietly, scrolls down once, back up]
+L77: 
+L78: **M:** What's your first reaction?
+L79: 
+L80: **P5:** A lot of numbers. But kind of organized.
+L81: 
+L82: **M:** Wasn't that table confusing?
+L83: 
+L84: **P5:** Yeah, kind of. I mean, yeah. There's a lot of columns.
+L85: 
+L86: [scrolling]
+L87: 
+L88: **M:** Okay. What are you looking at?
+L89: 
+L90: **P5:** The monthly payment. Mine is three-oh-something. And the income one is like two hundred. Big difference.
+L91: 
+L92: **M:** Mhm. What next?
+L93: 
+L94: **P5:** I'd look at the total I guess.
+L95: 
+L96: [cursor to total col. reads Standard ~36k and Income-Linked ~44k]
+L97: 
+L98: **P5:** So the income one costs more. Like eight thousand. Hm. Yeah that's a lot.
+L99: 
+L100: **M:** So what would you pick?
+L101: 
+L102: **P5:** I think stay on Standard. I can do the payment. I'd rather not pay more.
+L103: 
+L104: **M:** Right. So you'd probably want it simplified, right? The page?
+L105: 
+L106: **P5:** Yeah totally. Simpler would be better. Fewer columns.
+L107: 
+L108: [scrolls]
+L109: 
+L110: **M:** What would you take out?
+L111: 
+L112: **P5:** Um. The payoff date maybe? Or, I don't know. Some of the words.
+L113: 
+L114: **M:** Which words?
+L115: 
+L116: **P5:** The projected stuff. It's fine though I guess.
+L117: 
+L118: **M:** So it's fine or it should be simplified?
+L119: 
+L120: **P5:** Both kind of. It works but could be simpler.
+L121: 
+L122: **P5:** I guess also, is it per month or per year? The number. The, for the income one. I wasn't sure.
+L123: 
+L124: **M:** The payment?
+L125: 
+L126: **P5:** Yeah. I assumed month. It says 200 so, month.
+L127: 
+L128: **M:** Right. Okay. Did you see the income box below the table?
+L129: 
+L130: **P5:** I saw it. Didn't use it.
+L131: 
+L132: **M:** Want to try?
+L133: 
+L134: **P5:** Sure.
+L135: 
+L136: [Types 46000. HH size left at 1. Update. Income-Linked goes ~200 -> ~228]
+L137: 
+L138: **P5:** Oh it changed. A little. Okay makes sense.
+L139: 
+L140: **M:** Did you expect that?
+L141: 
+L142: **P5:** Yeah it's my income.
+L143: 
+L144: **M:** Does that number feel right?
+L145: 
+L146: **P5:** I think so? I don't know what the right number'd be. I'd have to just trust it.
+L147: 
+L148: **M:** Do you?
+L149: 
+L150: **P5:** Sort of. It's their own tool so it should be right. I'd assume they did it properly.
+L151: 
+L152: [hovers (i), reads, moves away]
+L153: 
+L154: **P5:** "Actual amount may vary." Okay.
+L155: 
+L156: **M:** Does that bother you?
+L157: 
+L158: **P5:** Not really. Everything says that.
+L159: 
+L160: **M:** Mm. Wait, sorry, let me, let me look at my, [pause] what did you say earlier about the plan you're on?
+L161: 
+L162: **P5:** Standard?
+L163: 
+L164: **M:** Right, no, I meant like, is that the ten-year one. The standard.
+L165: 
+L166: **P5:** I think so. It's the ten-year I guess.
+L167: 
+L168: **M:** Okay. [typing] Anything else on the page confusing?
+L169: 
+L170: **P5:** Not really. A little busy.
+L171: 
+L172: [clicked select on Standard, then back]
+L173: 
+L174: ---
+L175: 
+L176: ## Follow-up
+L177: 
+L178: **M:** So what was the first thing you looked at?
+L179: 
+L180: **P5:** Monthly payments. It's what I see every month.
+L181: 
+L182: **M:** And you'd stay on standard?
+L183: 
+L184: **P5:** Yeah.
+L185: 
+L186: **M:** Was there anything that almost made you switch?
+L187: 
+L188: **P5:** The income one. The lower payment, like two hundred less. But total's more. I'd probably only switch if I couldn't pay.
+L189: 
+L190: **M:** What about a feature where the tool just recommends a plan?
+L191: 
+L192: **P5:** Maybe. I'd probably use that. It'd be easier.
+L193: 
+L194: **M:** Why easier?
+L195: 
+L196: **P5:** I wouldn't have to compare myself. I don't know what I'm looking at half the time. But I'd want to see why.
+L197: 
+L198: **M:** And do you check your balance anywhere other than Oceanside?
+L199: 
+L200: **P5:** Not really. The app sometimes. No spreadsheet or whatever.
+L201: 
+L202: **M:** What do you think someone your age would struggle with most in deciding?
+L203: 
+L204: **P5:** Not knowing what they can afford later. Right now I can do three hundred and something, but what if I lose my job. Then I'd want the lower one. The table doesn't show that. Just numbers.
+L205: 
+L206: **P5:** Like, it could say what if my income drops? I think I saw that on, I don't know, maybe it was for car insurance.
+L207: 
+L208: **M:** Okay, so like a what-if.
+L209: 
+L210: **P5:** Yeah. Sure. A what-if.
+L211: 
+L212: **M:** Is that something you'd want the tool to help with?
+L213: 
+L214: **P5:** Maybe? I don't know how it would.
+L215: 
+L216: **M:** Fair. Anything else?
+L217: 
+L218: **P5:** I don't think so. The table's fine. I was just saying it was busy. It's not bad.
+L219: 
+L220: **M:** Oh, and I wanted to ask, sorry, I keep, let me look. [pause] Yeah. Did anything on the page surprise you?
+L221: 
+L222: **P5:** Um. The eight thousand more. I guess that was a little surprising. Like I knew it'd be more but not that much more.
+L223: 
+L224: **M:** Okay, thanks P5.
+L225: 
+L226: **P5:** Did I do that right?
+L227: 
+L228: **M:** No right or wrong. Thank you.
+L229: 
+L230: **P5:** Okay. Bye.
+L231: 
+L232: [End ~22 min]

@@ -1,0 +1,158 @@
+L1: # Transcript P9 — Oceanside Loan Servicing, Repayment Plan Comparison Study
+L2: 
+L3: Session: remote video call, screen-share. Screen share laggy at times
+L4: Participant: P9 — 44, warehouse operations supervisor, about $29,000 remaining on loans originally about $21,000, Oceanside customer 13 years
+L5: Moderator: M
+L6: Notes: observer, quick and informal
+L7: 
+L8: ---
+L9: 
+L10: **M:** Okay recording. Hi P9. Can you tell me about your loans?
+L11: 
+L12: **P9:** Yeah. So I borrowed twenty-one thousand. Twenty-one. In, what, 2008, 2009. And I've paid thirteen years. And I owe twenty-nine. Explain that to me. How does a person borrow twenty-one and after thirteen years owes more. I'll wait.
+L13: 
+L14: **M:** That sounds really frustrating. Was that because of a pause in payments? A, a deferment?
+L15: 
+L16: **P9:** Forbearance. Couple of them. When the plant closed I got laid off, they said don't worry you don't have to pay, and then the interest piled up and they put it on the balance. Capitalized, I looked it up. So I pay interest on interest. Legal apparently.
+L17: 
+L18: **M:** And how often are you on the site?
+L19: 
+L20: **P9:** Every month to pay. And every month I see the balance and want to throw the laptop. Goes down like eighty bucks. I pay three-something and it goes down eighty, cause the rest is interest. Every month. It's a joke.
+L21: 
+L22: **P9:** And then I called, they said my servicer changed at some point, I think, and the balance got moved over. Not Oceanside, before. Another outfit. I don't know, it's all a blur.
+L23: 
+L24: **M:** Okay. That's, uh, noted. So. Have you compared plans on the site?
+L25: 
+L26: **P9:** Once, a few years back. I was looking for anything. And I got to the end and thought this is just rearranging the same bad deal. Which chair you want on the Titanic.
+L27: 
+L28: **M:** Ha. Okay. So let's, uh, share your screen, and go to the comparison page.
+L29: 
+L30: **P9:** Go ahead.
+L31: 
+L32: ---
+L33: 
+L34: ## Screen-share
+L35: 
+L36: [Logs in. Dashboard. Sits on the balance ~10 sec.]
+L37: 
+L38: **P9:** See that? Twenty-nine four-something. That's the number. That's the number I'd like somebody to explain.
+L39: 
+L40: **M:** Right. If you could go to Compare Plans?
+L41: 
+L42: [Repayment > Compare Plans. lag ~5 sec]
+L43: 
+L44: **P9:** Okay. Table.
+L45: 
+L46: [reads ~15 sec. scrolls a bit, stops.]
+L47: 
+L48: **P9:** Standard, three-fifty. Payoff 2033. So I pay this for, what, twenty-five years. For a twenty-one-thousand loan. Quarter of a century for a car's worth.
+L49: 
+L50: **P9:** I'd also say the word "projected" is a joke. Every time. Every financial place, projected. Like a weatherman.
+L51: 
+L52: **M:** Ha. Okay. What stands out on the table?
+L53: 
+L54: **P9:** The payoff date. Cause that's what makes me mad. No, sorry, it's not the table. It's the situation. The table's fine. It says what it says.
+L55: 
+L56: **M:** So the table's easy to use then?
+L57: 
+L58: **P9:** Yeah. Easy enough. I didn't really use it.
+L59: 
+L60: [~14:10 P9 turns away: "hold on, Marcus, put it on the other dock." Gone ~1 min]
+L61: 
+L62: **P9:** Sorry. Overtime's killing us this month. You know what the overtime does? They take it out and then the loan eats what's left. I'm working sixty hours to pay a thing I borrowed for twenty-one. I should've gone into plumbing. My cousin did plumbing.
+L63: 
+L64: **M:** Okay. What do you look at when comparing?
+L65: 
+L66: **P9:** I look at payment. But what's it matter. All of them have me paying way more than I borrowed. Lowest total's, let me look, forty-one. On twenty-one! The whole thing's rigged, I don't say that lightly.
+L67: 
+L68: [clicks (i) by Total est. paid. reads]
+L69: 
+L70: **P9:** "Includes projected interest." I bet it does. The interest I already paid three times over.
+L71: 
+L72: **M:** Do you trust that number?
+L73: 
+L74: **P9:** I don't trust anything they say. Not after the capitalization. Nobody told me when it happened. You find out later in the mail in some letter in legalese. So projected. What are you gonna do to it between now and then.
+L75: 
+L76: **M:** What would make you trust it more?
+L77: 
+L78: **P9:** If they told me the rate. On this page. Next to the plans. It's not even on here. I'm looking. No, not here. It's the main thing! Why isn't it here.
+L79: 
+L80: [grey text under table, rate maybe? 7.something. couldn't read on share]
+L81: 
+L82: **M:** Would that change how you compare?
+L83: 
+L84: **P9:** No. The rate is the rate. It'd just feel honest.
+L85: 
+L86: [scrolls to estimator, doesn't click, back up]
+L87: 
+L88: **M:** Want to try the income box?
+L89: 
+L90: **P9:** I know my income. I don't need a box. I make what I make.
+L91: 
+L92: **M:** Okay, which plan would you pick?
+L93: 
+L94: **P9:** Standard. Can't afford more a month, and the other ones take longer, which is more interest, which is more of this. I stay and I'm still mad.
+L95: 
+L96: **M:** Sorry, one sec, [rustling] I had, the, I wanted to ask about the deferment again. Was it one or two?
+L97: 
+L98: **P9:** Forbearance. Two. Not sure, maybe three. The last one I didn't even ask for, they just put me in it.
+L99: 
+L100: **M:** Okay, and that's when the balance went up?
+L101: 
+L102: **P9:** Yes. That's what I said.
+L103: 
+L104: [Select plan on Standard. Confirmation page, reads 1st paragraph, scrolls, stops. Back.]
+L105: 
+L106: **P9:** It's clear. I'm not gonna argue with that page.
+L107: 
+L108: ---
+L109: 
+L110: ## Follow-up
+L111: 
+L112: **M:** So what'd you look at first?
+L113: 
+L114: **P9:** The balance. Before the table. I can't not look at it. Like a scab. Then the payoff date.
+L115: 
+L116: **M:** And in the table?
+L117: 
+L118: **P9:** Payment, then date. I didn't dig in. I've done this and I know how it ends.
+L119: 
+L120: **P9:** You know what else. My ex-wife's lawyer, in the divorce, she goes "you have student debt, that's an asset problem," like it was news. I knew it was a problem. I've known since 2009.
+L121: 
+L122: **M:** I'm, yeah. Sorry to hear that. Would you change anything about the page?
+L123: 
+L124: **P9:** I mean I guess I'd also say, make the font bigger. My eyes aren't what they were. I'm squinting at half of this. The little grey stuff, forget it.
+L125: 
+L126: **P9:** Put the rate on it. Put what I originally borrowed next to the balance so people see how bad it got. Not that it helps. But somebody should have to look at it.
+L127: 
+L128:  Do you think the tool should show that?
+L129: 
+L130: **P9:** I think the company should be embarrassed. But yeah. Sure.
+L131: 
+L132: **M:** What about a recommendation feature? Useful?
+L133: 
+L134: **P9:** Recommend what. They're all bad. You'd be recommending which bad one. If it said "refinance somewhere else" I'd use that. But they don't wanna lose the loan.
+L135: 
+L136: **P9:** And honestly? The "estimate with your income" thing, that's for people who have a choice. I don't have a choice. Lot of people don't.
+L137: 
+L138: **M:** I, yeah, can't speak to that. Would you say the comparison is pretty helpful overall, for someone in your position?
+L139: 
+L140: **P9:** Sure. Helpful. For what it is.
+L141: 
+L142: **P9:** Oh and, is it okay if I say something about the survey they sent before this? The screener. It asked if I was "satisfied with Oceanside." Satisfied. What kind of a question is that.
+L143: 
+L144: **M:** I, yeah, I wasn't involved in the screener.
+L145: 
+L146: **P9:** Well. Somebody should look at it.
+L147: 
+L148: **M:** Okay. Anything else?
+L149: 
+L150: **P9:** Just that I've been paying thirteen years and I'm eight thousand further in the hole than where I started. Put that in your report. I want somebody at a desk to know.
+L151: 
+L152: **M:** I'll make sure it's noted. Thanks.
+L153: 
+L154: **P9:** Yeah. Sorry for venting.
+L155: 
+L156: **M:** No need. Take care.
+L157: 
+L158: [End ~26 min]

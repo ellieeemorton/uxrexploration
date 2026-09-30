@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "T1",
+    "filename": "P1.md",
+    "type": "transcript",
+    "line_count": 133
+  },
+  {
+    "source_id": "T2",
+    "filename": "P2.md",
+    "type": "transcript",
+    "line_count": 156
+  },
+  {
+    "source_id": "T3",
+    "filename": "P3.md",
+    "type": "transcript",
+    "line_count": 238
+  },
+  {
+    "source_id": "T4",
+    "filename": "P4.md",
+    "type": "transcript",
+    "line_count": 146
+  },
+  {
+    "source_id": "T5",
+    "filename": "P5.md",
+    "type": "transcript",
+    "line_count": 232
+  },
+  {
+    "source_id": "T6",
+    "filename": "P6.md",
+    "type": "transcript",
+    "line_count": 166
+  },
+  {
+    "source_id": "T7",
+    "filename": "P7.md",
+    "type": "transcript",
+    "line_count": 186
+  },
+  {
+    "source_id": "T8",
+    "filename": "P8.md",
+    "type": "transcript",
+    "line_count": 160
+  },
+  {
+    "source_id": "T9",
+    "filename": "P9.md",
+    "type": "transcript",
+    "line_count": 158
+  }
+]

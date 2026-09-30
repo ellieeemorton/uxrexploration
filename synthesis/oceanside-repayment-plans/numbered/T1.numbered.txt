@@ -1,0 +1,133 @@
+L1: # Transcript P1 — Oceanside Loan Servicing, Repayment Plan Comparison Study
+L2: 
+L3: Session: 45 min, remote video call, screen-share
+L4: Participant: P1 — 34, ER nurse, about $41,000 remaining on federal loans, serviced by Oceanside for six years
+L5: Moderator: M
+L6: 
+L7: ---
+L8: 
+L9: ## Part 1: Background
+L10: 
+L11: **M:** Okay, so, recording's on. Thanks for doing this. Um, I'll say up front, we're testing the tool, not you, so there's no wrong way to do anything.
+L12: 
+L13: **P1:** Sure, sounds good.
+L14: 
+L15: **M:** Can you just start by telling me a little about your loans? Like, how long you've had them, that kind of thing.
+L16: 
+L17: **P1:** Yeah. So I finished nursing school in 2018, and I've been in repayment since, I think, early 2019. Right now I'm on the standard plan, the ten-year one. I've got about forty-one thousand left. I'm not sure exactly, it's somewhere in there.
+L18: 
+L19: **M:** And how often do you log in to Oceanside?
+L20: 
+L21: **P1:** Not often. Maybe three or four times a year? I have autopay set up so I mostly don't think about it. I'll log in if I get an email that something changed, or at tax time, because I need the interest statement.
+L22: 
+L23: **M:** Got it. And have you ever looked at switching plans?
+L24: 
+L25: **P1:** Once. About two years ago I looked at it because my hours got cut for a few months, and I wanted to see if I could lower the payment. I looked around and then my hours came back and I just stayed where I was.
+L26: 
+L27: **M:** Do you remember what you looked at back then?
+L28: 
+L29: **P1:** I remember a table with a bunch of plans and numbers. I remember thinking the monthly number was the thing I cared about most. Like, how much less would I pay each month. That was really the whole question.
+L30: 
+L31: **M:** Okay. That's helpful. So, for today, I'm going to ask you to share your screen, and I'll have you go to the plan comparison page and work through choosing a plan like you actually would. You won't actually submit anything. Is that okay?
+L32: 
+L33: **P1:** Yep, that's fine.
+L34: 
+L35: ---
+L36: 
+L37: ## Part 2: Screen-share task
+L38: 
+L39: **M:** Go ahead and share. And if you can, just talk out loud about what you're thinking.
+L40: 
+L41: [P1 shares screen. Oceanside dashboard is showing. Cursor rests on the top navigation for about three seconds.]
+L42: 
+L43: **P1:** Okay, so I'm going to look for "plans" or something. Let me see.
+L44: 
+L45: [P1 clicks "Repayment" in the top navigation. A dropdown appears. P1 clicks "Compare Plans."]
+L46: 
+L47: **P1:** That was pretty easy to find, actually.
+L48: 
+L49: [Comparison page loads. Table shows four plans: Standard 10-Year, Graduated, Income-Linked Flex, and Extended 25. Columns are monthly payment, payoff date, and total estimated paid. P1 reads the table for about ten seconds without scrolling.]
+L50: 
+L51: **M:** What are you looking at?
+L52: 
+L53: **P1:** The monthly payment column, first. I'm just looking down it. My current one says, uh, three hundred eighty-some dollars. The Income-Linked one is way lower. It's like a hundred and ninety.
+L54: 
+L55: **M:** And what do you do next?
+L56: 
+L57: **P1:** I look at the total paid, because the lower payment is obviously going to cost more in the long run. And yeah, that one's like, ten thousand more than what I pay now.
+L58: 
+L59: [P1 moves the cursor to the "Total estimated paid" column and then back to the monthly payment column. Hovers on the "Income-Linked Flex" row.]
+L60: 
+L61: **P1:** So there's that tradeoff, right. Lower payment, more total. I kind of expected that, but it's good to see it written out.
+L62: 
+L63: **M:** Do you trust those numbers?
+L64: 
+L65: **P1:** Mostly? I mean, for my current plan, yes, because I know roughly what I pay. For the income one I'm not sure how they're guessing my income. Let me see if there's a thing for that.
+L66: 
+L67: [P1 scrolls down below the table. Finds a box labeled "Estimate with your income." Clicks into it. Types 78000 in the income field. Selects "1" for household size. Clicks "Update estimate."]
+L68: 
+L69: **P1:** Okay. So now the income one changed. It's at two hundred and ten now instead of a hundred ninety. So the first number was a default, then.
+L70: 
+L71: **M:** Did you expect that?
+L72: 
+L73: **P1:** Not really, no. I would've liked it to say somewhere that the number up top was a placeholder. I noticed because I happened to look, but, like, if I hadn't, I'd have thought it was for me.
+L74: 
+L75: [P1 scrolls back up. Reads the updated table. Hovers over the small "i" icon beside "Total estimated paid." A tooltip appears: "Includes projected interest. Actual amount may vary." P1 reads it, about five seconds.]
+L76: 
+L77: **P1:** "Actual amount may vary." Okay. That's kind of vague. Vary how much, you know? I don't need an exact number but I'd like to know, is it plus or minus fifty dollars or plus or minus five thousand.
+L78: 
+L79: **M:** Right. Um. Okay. So, which plan would you pick, if you were doing it for real?
+L80: 
+L81: **P1:** Honestly, probably I'd stay on the standard. I can afford it right now. The income one is tempting because of the lower payment but I'd pay more interest, and I'd rather be done in 2029 than 2044 or whatever it says. Let me check the dates.
+L82: 
+L83: [P1 looks at the payoff date column. Reads across the rows, left to right.]
+L84: 
+L85: **P1:** Yeah. Standard says 2029, the long one says 2044. No. I'm done thinking about it, I'd stay.
+L86: 
+L87: [P1 scrolls to the bottom, clicks "Select plan" on the Standard row out of curiosity. A confirmation screen appears. P1 reads it, then clicks "Back." Does not submit.]
+L88: 
+L89: **M:** Why'd you click that one?
+L90: 
+L91: **P1:** I just wanted to see what happens. Like, is it a big scary "are you sure" thing or is it easy. It looked pretty clear. It says what changes and what doesn't. That was fine.
+L92: 
+L93: ---
+L94: 
+L95: ## Part 3: Follow-up
+L96: 
+L97: **M:** Okay, good. So if you think back, what's the first thing your eye goes to on that page?
+L98: 
+L99: **P1:** The monthly payment. Every time. Then the total. Then I look at the date if I'm serious.
+L100: 
+L101: **M:** And was there anything that made you pause, or that you weren't sure about?
+L102: 
+L103: **P1:** The income estimate thing. I mean, once I found it, it was fine, it worked. But it was below the table, and I almost didn't scroll down. If I hadn't been curious about where the number came from, I'd have just taken the first numbers as mine.
+L104: 
+L105: **M:** Would you have wanted that higher up?
+L106: 
+L107: **P1:** I think so, yeah. Or at least some text right by the table that says "this is based on an example income" or whatever. Something.
+L108: 
+L109: **M:** Anything you'd change otherwise?
+L110: 
+L111: **P1:** Not really. I mean, the table's pretty clear. Four plans is a manageable number. If it was like ten I'd be lost. I like that it didn't try to tell me which one to pick. Actually, hm. Maybe that's a thing. I don't know. I have a friend who'd probably want to be told. I'm fine doing the comparison myself because I'm kind of a spreadsheet person.
+L112: 
+L113: **M:** What kind of thing would the friend want?
+L114: 
+L115: **P1:** Like, a quiz? Or a recommendation. "Based on your income, we think this." But she'd also not trust it, I think, because it's the company telling her. She'd go, well, what's in it for them.
+L116: 
+L117: **M:** Do you feel that way?
+L118: 
+L119: **P1:** A little. Not a lot. They're a servicer, they get paid either way. But I don't love the idea that a recommended plan would be, like, the one that keeps me paying longest. I'd want to see the math either way. So, I'd probably use a recommendation as a starting point and then check it against the table.
+L120: 
+L121: **M:** That makes sense. Anything else about how you check numbers? Like, do you compare them against anything outside the tool?
+L122: 
+L123: **P1:** My own records, yeah. I keep a little spreadsheet with my balance and what I've paid. I compare the number on the tool to my own. Today they matched, more or less. They were about forty dollars off on the balance, which I figure is interest accrual since I last updated it.
+L124: 
+L125: **M:** Okay. Great. Um, anything else you wanted to say that I didn't ask about?
+L126: 
+L127: **P1:** No, I think that's it. I guess the one thing is, it's a good thing that the page shows the end date. A lot of the time I only think about the monthly amount, and then seeing 2044 next to it is a little bit of a gut check. I like that.
+L128: 
+L129: **M:** Good. Thank you so much, that was really helpful.
+L130: 
+L131: **P1:** No problem. Happy to do it.
+L132: 
+L133: [Session ends. Total time approximately 28 minutes.]

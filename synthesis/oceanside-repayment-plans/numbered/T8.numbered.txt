@@ -1,0 +1,160 @@
+L1: # Transcript P8 — Oceanside Loan Servicing, Repayment Plan Comparison Study
+L2: 
+L3: Session: remote video call, screen-share. P8's connection dropped for ~20 sec at one point
+L4: Participant: P8 — 43, middle school English teacher, about $38,000 remaining, public-service-track loans, Oceanside customer 7 years
+L5: Moderator: M
+L6: Notes: observer; some timestamps (mm:ss into recording)
+L7: 
+L8: ---
+L9: 
+L10: **M:** Alright, recording. Thank you, P8. To start, tell me about your loans and how you ended up where you are.
+L11: 
+L12: **P8:** Sure. So I went into teaching a little late, I did something else first, so I went back for the credential and a master's, call it fifty-two originally. I'm at thirty-eight now about. I'm at this district eight years in the fall. And I'm on a plan that in theory is tied to the public service thing, which is the dream, except nobody's ever explained what "in theory" means. So I pay and hope.
+L13: 
+L14: **M:** What do you mean hope?
+L15: 
+L16: **P8:** That I'm on the right plan. That the paperwork's right. That the forgiveness is an actual thing. Teachers' lounge rumors. Everybody's cousin got burned.
+L17: 
+L18: **M:** How often do you log in?
+L19: 
+L20: **P8:** Few times a year. When I get an email I don't understand. And summers, I have time.
+L21: 
+L22: **M:** Have you looked at other plans?
+L23: 
+L24: **P8:** I've looked, but the thing I actually look at, the thing that matters to me isn't any of the, what I go by is, I called my union rep a couple years ago and she said the number you should really be watching is the qualifying payment count, and the tool never, it doesn't show you how many of those you've, so when I'm choosing what I actually want to know is whether switching resets, because if it resets then all the, for a teacher that's the entire
+L25: 
+L26: **M:** Sorry to jump in, I want to make sure we have time for the task. Can you share your screen and we'll come back?
+L27: 
+L28: **P8:** Oh. Sure. Of course.
+L29: 
+L30: [04:10 (observer flagged: this seemed like it mattered.)]
+L31: 
+L32: ---
+L33: 
+L34: ## Screen-share
+L35: 
+L36: [05:02 P8 shares. Dashboard. Clicks Repayment, hesitates ~3s, Compare Plans]
+L37: 
+L38: **P8:** Okay. Table. Four plans. I'll be honest, tables make my eyes slide off. I teach eighth graders, I'm a paragraph person.
+L39: 
+L40: [reads plan names across. scrolls bottom, back up]
+L41: 
+L42: **M:** First impression?
+L43: 
+L44: **P8:** That it's clean. Nothing shouting at me. But I don't know what to do with it. It's like reading a menu in a restaurant where the prices change while you're reading them. You keep looking back at the first line to make sure it still says what it said.
+L45: 
+L46: **M:** Sorry, what was that, about the first line?
+L47: 
+L48: **P8:** That I keep looking back up at the top. To check it didn't, it's a, I'm not saying it's bad. It's a feeling.
+L49: 
+L50: **P8:** My students would say it looks like a spreadsheet for a game. Last week a kid presented on a scoring system for Minecraft and I thought, this is better organized than the loan page. Sorry. That's not useful.
+L51: 
+L52: **M:** Okay. Do the prices change?
+L53: 
+L54: **P8:** No. Not literally. It just feels like it.
+L55: 
+L56: [table static throughout. cursor monthly <-> total]
+L57: 
+L58: **M:** What are you looking at?
+L59: 
+L60: **P8:** Monthly and total side by side. Mine's three-ten. Income-Linked says one-forty, which is tempting. But I don't know if it counts toward my public service thing. It doesn't say.
+L61: 
+L62: **M:** So nothing on the page says that?
+L63: 
+L64: **P8:** Not that I can see.
+L65: 
+L66: [07:40 scrolls down. types 61000, HH1. Update. reads.]
+L67: 
+L68: **P8:** It shifted. Two-ten. Okay, more realistic. I like putting my own number in. Less like a brochure.
+L69: 
+L70: [hovers (i) by Total est. paid. reads]
+L71: 
+L72: **P8:** "Includes projected interest." Fine. But total isn't what I care about. If I'm on the forgiveness track I don't pay it all so the column could say a million and it wouldn't tell me anything.
+L73: 
+L74: **M:** What would you want instead?
+L75: 
+L76: **P8:** How many of my payments count, and how many are left. That's the number.
+L77: 
+L78: **P8:** And my union rep said there's a form, too, an employer certification thing, and I'm pretty sure I did it in, what, 2019? Or was it 2020. I'd have to find the email.
+L79: 
+L80: **M:** Right. So you'd want the qualifying count shown on the plan table?
+L81: 
+L82: **P8:** Yes. Yes. Exactly.
+L83: 
+L84: **M:** Do you know where you'd find it on the site?
+L85: 
+L86: **P8:** No idea. Never found it. Maybe there's a tab. I never went looking to be fair.
+L87: 
+L88: [nav shows Account, Forgiveness Programs. not clicked]
+L89: 
+L90: [clicks the Income-Linked row, expands a short description. reads]
+L91: 
+L92: **P8:** "Payments are based on a percentage of your discretionary income." That's the kind of sentence I'd hand back to a kid with "define your terms."
+L93: 
+L94: **P8:** And I'll say, the thing is, I don't actually know which one I'm on now. Is mine the Standard? It says Standard is three-ten and mine's three-ten so I guess. But the public service one, is that a plan or a, I thought it was a thing on top of the plan.
+L95: 
+L96: **M:** I'm not sure I can answer that for you.
+L97: 
+L98: **P8:** No, no, I know. I'm just saying, this is part of why I freeze.
+L99: 
+L100: **M:** Ha. Which plan would you pick?
+L101: 
+L102: **P8:** Stay. I'm scared to switch. If it resets my count I'd lose years and nothing here says it doesn't.
+L103: 
+L104: [[froze ~11:05, back ~11:25, mid-sentence]]
+L105: 
+L106: **P8:** ...so that's why I'd stay. Sorry, did you get that?
+L107: 
+L108: **M:** Most of it. You said stay because of the count.
+L109: 
+L110: **P8:** Right.
+L111: 
+L112: [Clicks Select plan on Standard. Confirmation page. Scrolls, reads bottom. Back.]
+L113: 
+L114: **P8:** That's clear enough. It says what changes. Nothing about the count though. Same gap.
+L115: 
+L116: ---
+L117: 
+L118: ## Follow-up
+L119: 
+L120: **M:** Let me go back to what we were on before. What else do you look at when you compare? Besides monthly.
+L121: 
+L122: **P8:** The thing I wanted to say earlier, I'm going to say it in one piece this time, is I look at, it's whether the plan affects my, sorry, what was the question?
+L123: 
+L124: **M:** What else you look at, comparing plans.
+L125: 
+L126: **P8:** Right. So the monthly and whether I'll get burned. Those two.
+L127: 
+L128: **M:** Did you look at, um, there's, I think it's in the top nav, "Forgiveness Programs," did you?
+L129: 
+L130: **P8:** I didn't. I didn't notice it. Is that where the count is?
+L131: 
+L132: **M:** I, I can't say. I don't want to steer you. Just, noting.
+L133: 
+L134: **P8:** Hm. Okay. I'll look at it later I guess. I would've thought it'd be on the, on this page.
+L135: 
+L136: **M:** Okay. And do you trust the numbers?
+L137: 
+L138: **P8:** The payment, yes, matches mine. The total I don't care about. I'd trust it like a weather forecast for next month.
+L139: 
+L140: **M:** Ha. There's an idea for a guided tool that asks a few questions and recommends a plan. Useful?
+L141: 
+L142: **P8:** Could be. If it asked about my job. Are you a teacher, a public employee. First question, changes everything. If it doesn't ask that it's useless to me.
+L143: 
+L144: **M:** Okay. So the tool should, sorry, I wrote "ask employer type"?
+L145: 
+L146: **P8:** Yes, or like, what kind of work. Whether it's public service.
+L147: 
+L148: **M:** Anything else?
+L149: 
+L150: **P8:** One more. The page felt calm. Some financial pages feel like a slot machine. Bells, banners. This one just sits there. I appreciate that.
+L151: 
+L152: **M:** Anything else you want to say?
+L153: 
+L154: **P8:** I don't think so. I hope I was useful. I talk a lot when I'm nervous, occupational hazard.
+L155: 
+L156: **M:** You were great. Thanks so much.
+L157: 
+L158: **P8:** Thank you.
+L159: 
+L160: [End ~31 min]
