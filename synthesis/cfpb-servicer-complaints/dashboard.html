@@ -17,6 +17,7 @@
   --accent-soft: #cde2fb;
   --good: #0ca30c;
   --critical: #d03b3b;
+  --highlight: #eb6834;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -33,6 +34,7 @@
     --accent-soft: #184f95;
     --good: #0ca30c;
     --critical: #e66767;
+    --highlight: #d95926;
     color-scheme: dark;
   }
 }
@@ -49,6 +51,7 @@
   --accent-soft: #184f95;
   --good: #0ca30c;
   --critical: #e66767;
+  --highlight: #d95926;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -147,7 +150,13 @@ footer { margin-top: 8px; font-size: 0.78rem; color: var(--fg-muted); }
     <div class="chart-holder chart-scroll" id="chart-timely"></div>
   </div>
 
-  <footer>Source: CFPB Consumer Complaint Database, filtered to Product = Student loan, Issue = Dealing with your lender or servicer, with a narrative, received 2026-02-01&ndash;2026-07-28. Derivation scripts in <code>demo-data/cfpb-scripts/</code>.</footer>
+  <div class="card">
+    <h2>What happened when companies responded</h2>
+    <p class="deck">Company response to consumer, full population (n = 1,948). "Untimely response" is CFPB's own recorded value for this field when no response was logged in time &mdash; shown as-is, not relabeled.</p>
+    <div class="chart-holder chart-scroll" id="chart-response"></div>
+  </div>
+
+  <footer>Source: CFPB Consumer Complaint Database, filtered to Product = Student loan, Issue = Dealing with your lender or servicer, with a narrative, received 2026-02-01&ndash;2026-07-28. Derivation scripts in <code>demo-data/cfpb-scripts/</code>. "What happened when companies responded" is derived from the same filtered population as the charts above it.</footer>
 </div>
 
 <div class="tooltip" id="tooltip"></div>
@@ -174,6 +183,11 @@ const DATA = {
     ["AES/PHEAA", 28], ["Climb Credit Inc.", 28], ["Other (44 companies)", 110]
   ],
   trend: [["Feb", 219], ["Mar", 385], ["Apr", 456], ["May", 317], ["Jun", 360], ["Jul", 211]],
+  companyResponse: [
+    ["Closed with explanation", 1216], ["Untimely response", 710],
+    ["Closed with non-monetary relief", 16], ["Closed with monetary relief", 4],
+    ["In progress", 2]
+  ],
   timelyByIssue: [
     ["Keep getting calls about your loan", 34, 2],
     ["Received bad information about your loan", 494, 266],
@@ -249,24 +263,31 @@ function horizontalBar(hostId, rows, opts) {
 
   rows.forEach((r, i) => {
     const [name, value] = r;
+    const isHighlighted = opts.highlight && name === opts.highlight.name;
     const y = 4 + i * (rowH + gap);
     const w = (value / maxVal) * plotW;
     const label = el("text", { x: labelW - 10, y: y + rowH / 2 + 4, "text-anchor": "end", class: "bar-label" });
     label.textContent = name;
+    if (isHighlighted) label.setAttribute("font-weight", "600");
     svg.appendChild(label);
-    const rect = el("rect", { x: labelW, y: y, width: Math.max(w, 2), height: rowH, fill: "var(--accent)", class: "bar-rect", rx: 3 });
-    rect.addEventListener("mousemove", e => showTip(e, `<b>${name}</b><br>${value.toLocaleString()} complaints`));
+    const rect = el("rect", { x: labelW, y: y, width: Math.max(w, 2), height: rowH, fill: isHighlighted ? "var(--highlight)" : "var(--accent)", class: "bar-rect", rx: 3 });
+    rect.addEventListener("mousemove", e => showTip(e, `<b>${name}</b><br>${value.toLocaleString()} complaints${isHighlighted ? ` (${opts.highlight.pct}% of all complaints)` : ""}`));
     rect.addEventListener("mouseleave", hideTip);
     svg.appendChild(rect);
     const val = el("text", { x: labelW + w + 8, y: y + rowH / 2 + 4, class: "bar-value" });
-    val.textContent = value.toLocaleString();
+    val.textContent = isHighlighted ? `${value.toLocaleString()} (${opts.highlight.pct}%)` : value.toLocaleString();
+    if (isHighlighted) val.setAttribute("fill", "var(--highlight)");
     svg.appendChild(val);
   });
   host.appendChild(svg);
 }
 
 horizontalBar("chart-subissue", DATA.subissue, { aria: "Complaints by sub-issue" });
-horizontalBar("chart-company", DATA.company, { aria: "Complaints by company" });
+horizontalBar("chart-company", DATA.company, {
+  aria: "Complaints by company",
+  highlight: { name: "Nelnet, Inc.", pct: Math.round(279 / DATA.total * 100) }
+});
+horizontalBar("chart-response", DATA.companyResponse, { aria: "Company response to consumer" });
 
 // ---- Line chart (monthly trend) ----
 (function renderTrend() {
