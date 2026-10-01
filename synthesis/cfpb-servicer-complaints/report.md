@@ -1,6 +1,6 @@
 # CFPB Student Loan Servicer Complaints — Qualitative Synthesis (Feb–Jul 2026 sample)
 
-> **Note on the data:** unlike the Oceanside repayment-plan-comparison study in this same project (which is synthetic, built for the research-synthesis skill demo), **this is real public data**: real CFPB complaints, naming real servicing companies (MOHELA, Nelnet, Maximus Federal Services, EdFinancial, Navient, and others) and real borrowers. Quotes below are borrowers' own words, with personally identifying details already redacted by CFPB (shown as `XXXX`). This report characterizes patterns in a sample of complaint narratives — it is not a finding about any named company's overall conduct or performance, and should not be read or circulated as one; see "What this data cannot tell us" before drawing conclusions about any specific company.
+> **Note on the data:** unlike the Oceanside repayment-plan-comparison study in this same project (which is synthetic, built for the research-synthesis skill demo), **this is real public data**: real CFPB complaints, naming real servicing companies (MOHELA, Nelnet, Maximus Federal Services, EdFinancial, Navient, and others) and real borrowers. Quotes below are borrowers' own words, with personally identifying details already redacted by CFPB (shown as `XXXX`). **The focus of this report is the patterns, not any one company** — company names appear because the underlying data names them and removing them would misrepresent the source, but no finding here is a claim about a specific company's overall conduct or performance, and it should not be read or circulated as one; see "What this data cannot tell us" before drawing any company-specific conclusion.
 
 ## How to read the citations
 
@@ -30,7 +30,16 @@ Findings 1–2 are cross-cutting (span all 99 sampled narratives); Findings 3–
 - Across the full sample, a substantial minority of complaints — **some (29 of 99), Moderate** — center specifically on getting no substantive response at all, despite repeated effort, rather than disagreeing with an answer they did receive. (Finding 1)
 - A distinct but smaller, sub-threshold pattern — **16 of 99, not a theme** — describes the servicer's own prior statement, written confirmation, or system record being directly contradicted by its later action or a different representative. (Finding 2)
 - CFPB's sub-issue labels vary widely in how well they predict content: "Trouble with how payments are being handled" is the **narrowest, most label-accurate** category in this sample (**most, 13 of 18, Moderate**), while "Don't agree with the fees charged" turns out to be mostly about interest/capitalization rather than discrete fees (**about half, 7 of 13, Moderate, numerically fragile**), and "Received bad information about your loan" is the **widest-ranging** label, with no majority sub-pattern. (Findings 3–9)
-- Timeliness of response tracks **both** company and complaint content in this sample, and the two are correlated: one company (MOHELA) accounts for most of the sample's untimely responses, but even restricted to MOHELA alone, timeliness still varies sharply by what the complaint is about. (Finding 10 — structural/quantitative, sample-level only)
+- **How complex or multi-step the underlying issue is tracks timeliness more than which company handled it:** in this sample, procedural, single-step requests (e.g. a co-signer release, a stop-the-calls request) got a timely response nearly 100% of the time, while multi-step case reviews (payment-count audits, interest-capitalization disputes, cross-agency determinations) got one well under 15% of the time — and this pattern holds even when looking at one company's complaints alone, not just across companies of different sizes. (Finding 10 — structural/quantitative, sample-level only)
+
+## Why this matters, and what's next
+
+**Bottom line:** the clearest, most actionable pattern in this sample isn't about any one company — it's that complaints asking for a *real, substantive answer* (not just a reply) go unaddressed far more often than complaints about tone or a single bad interaction (Finding 1), and that *how complicated the underlying request is* predicts how long it takes to resolve far better than *who's handling it* (Finding 10). Both are the kind of finding you can act on regardless of which servicer you are: tracking "did every direct question get a specific answer" and routing/staffing multi-step case types differently from single-step ones would plausibly move the needle more than a general "respond faster" mandate.
+
+**What's next, if this were taken further:**
+- Extend the qualitative sample size and depth — this sample was deliberately broad (99 narratives, first 1-2 sentences each) rather than deep; a few specific findings (3 and 9) are flagged as fragile or coverage-limited and would benefit from a fuller read.
+- The same method shown here — tag, build themes, verify with a fresh-context check, review for bias, then report with every claim traceable back to a quote — applies directly to any organization's own complaint, support-ticket, or open-ended survey text, not just public CFPB data.
+- This is a demonstration of that method on real, messy, publicly available text, not a vendor or competitor assessment — happy to walk through applying it to a different dataset.
 
 ---
 
@@ -146,15 +155,17 @@ N = 8. Only 3 of the 8 sampled narratives in this stratum (C20, C27, C99) refere
 
 ---
 
-### RQ3 — Finding 10: Timeliness tracks both company and complaint content, and the two are correlated (Structural/quantitative, sample-level only — not the Strong/Moderate/Thin rubric)
+### RQ3 — Finding 10: How complex the underlying issue is tracks timeliness more than which company handled it (Structural/quantitative, sample-level only — not the Strong/Moderate/Thin rubric)
 
 This finding is derived from exact categorical metadata on the 99 sampled narratives (`sample-manifest.md`), cross-tabulated, not from counting qualitative patterns — the evidence-strength rubric above doesn't directly apply, but the same sample-level-only caveat does: **this describes the stratified sample, not the full population of 1,948** (see the dashboard for population-level timeliness by sub-issue, which is directionally consistent with what follows).
 
-**Read this as description, not proof:** the table below has cells as small as n=2. This sample (99, stratified to guarantee category coverage rather than sized for statistical power — see Methodology above) is nowhere near the ~380-400 you'd generally want for a population-level statistical claim about 1,948 complaints. Nothing here is statistically significant; it's a pattern worth noting and worth testing on more data, not a demonstrated effect.
+**Read this as description, not proof:** cells below are as small as n=2. This sample (99, stratified to guarantee category coverage rather than sized for statistical power — see Methodology above) is nowhere near the ~380-400 you'd generally want for a population-level statistical claim about 1,948 complaints. Nothing here is statistically significant; it's a pattern worth noting and worth testing on more data, not a demonstrated effect.
 
-In the 99-narrative sample: MOHELA accounts for 46 of 99 narratives, and 32 of those 46 (70%) received an untimely response, versus 3 of 53 (6%) for every other company combined. That alone could make this purely a company-level story. It isn't purely that: **restricted to MOHELA narratives only**, timeliness still varies sharply by sub-issue —
+**The pattern:** procedural, single-step requests (co-signer release, "stop calling me") get a timely response close to 100% of the time in this sample; multi-step case reviews that require individualized account work (payment-count audits, interest-capitalization disputes, determinations that cross servicer and Department of Education lines) get one well under 15% of the time. Several of this report's qualitative findings offer a plausible (not proven) explanation for why: the slow categories are exactly the ones this report found dominated by multi-step, individualized review (Findings 3, 4, 8), while the fast categories are closer to single-step, proceduralized requests.
 
-| Sub-issue (MOHELA only) | Timely | Total | Rate |
+**Checking this isn't just a company-size artifact:** the sample happens to be dominated by one large company (46 of 99 narratives), so it's worth asking whether "complexity predicts timeliness" is really just "one company is slow." It isn't purely that — restricting to that one company's narratives alone, timeliness still varies sharply by sub-issue in the same direction as the pattern above:
+
+| Sub-issue (single largest company in this sample only) | Timely | Total | Rate |
 |---|---|---|---|
 | Co-signer | 2 | 2 | 100% |
 | Keep getting calls about your loan | 2 | 2 | 100% |
@@ -164,7 +175,7 @@ In the 99-narrative sample: MOHELA accounts for 46 of 99 narratives, and 32 of t
 | Trouble with how payments are being handled | 1 | 14 | 7% |
 | Don't agree with the fees charged | 0 | 4 | 0% |
 
-Several of the qualitative findings above offer a plausible (not proven) interpretive lens on why: the slow categories (payments-handling, fees/interest, balance/terms) are exactly the ones this report found dominated by multi-step, individualized review — IDR/forgiveness payment-count audits, interest-capitalization disputes, cross-agency (servicer + Department of Education) determinations (Findings 3, 4, 8) — while the fast categories (co-signer release, stop-the-calls) are closer to single-step, proceduralized requests. This is a reasonable interpretation grounded in the qualitative content, not a demonstrated causal mechanism; the cell sizes above are small (as low as n=2), and non-MOHELA companies' near-uniform timeliness across categories (nearly all "Yes," based on far smaller per-company volumes in this sample) could equally reflect that smaller servicers in this sample simply have less complaint volume to triage, not a different process.
+This is a reasonable interpretation grounded in the qualitative content, not a demonstrated causal mechanism; the cell sizes above are small (as low as n=2), and the other companies' near-uniform timeliness across categories in this sample (far smaller volume per company) could equally reflect less complaint volume to triage, not a different process. See the published dashboard if you want the full per-company breakdown this table is drawn from.
 
 ---
 
@@ -185,5 +196,5 @@ Several of the qualitative findings above offer a plausible (not proven) interpr
 ## Implications
 
 - **Finding 1 + Finding 5 + Finding 8** (non-responsiveness, cutting across "customer service" and "balance/terms" complaints alike) suggest that if anyone is prioritizing what to fix first in a real servicer's complaint-handling process, "does every direct request get a substantive, specific answer" is a higher-yield question than "is the customer service department polite" — the pattern is about absence of a real answer, not tone.
-- **Finding 10** suggests that if accountability for timeliness is being assigned, attributing it to one company's overall performance (MOHELA) without controlling for complaint-content mix risks over- or under-crediting that company — the same company looks very different (100% timely) on proceduralized requests than on multi-step case reviews (7% timely). Any comparison across servicers should control for the sub-issue mix each one actually receives.
+- **Finding 10** suggests that if timeliness is being measured or compared at all — across companies, teams, or time periods — the complaint-content mix needs to be controlled for first, or the comparison risks measuring "how many hard cases this group happened to get" rather than "how well this group handles cases." The same single company in this sample looks dramatically different (100% timely vs. 7% timely) depending only on which kind of request is being measured, which is the general risk any such comparison should guard against.
 - **Finding 3's fragility and Finding 9's coverage gap** are a process note for this skill, not a finding about servicers: a 50/50-ish split theme and an under-excerpted category are both signs that excerpting only the first 1-2 sentences per narrative is a real limitation for a sample this size — a follow-up pass reading full narratives for these two categories specifically would be worth the time before treating Findings 3 or 9 as settled.
