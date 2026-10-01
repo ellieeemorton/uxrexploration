@@ -68,9 +68,9 @@ A distinct, more specific pattern from Finding 1: not "no answer," but a written
 
 **This does not clear the 20-of-99 theme threshold** (16 of 99 = 16.2%, below the 20 required) and is reported as an isolated pattern, with the raw fraction rather than a qual-quant word, per `theme-building.md`.
 
-16 of 99 — [C6-L9, C17-L1, C21-L1b, C27-L1a, C32-L1, C45-L1, C46-L1, C49-L1, C55-L1, C59-L1, C60-L1, C69-L1, C80-L1b, C84-L1b, C86-L1, C97-L1b]
+16 of 99 — [C17-L1, C21-L1b, C27-L1a, C32-L1, C45-L1, C46-L1, C49-L1, C55-L1, C59-L1, C60-L1, C61-L1b, C69-L1, C80-L1b, C84-L1b, C86-L1, C97-L1b]
 
-> “Despite this, Nelnet later accrued more than {$10000.00} in interest during this same period, without notice, while continuing to keep my loans in forbearance.” (C6-L9) — after being told in writing the loans would sit at 0% interest.
+> “When I requested that the servicer reverse or credit the interest that accrued as a result of their error, they refused, stating that interest " accrued normally '' and could not be reversed.” (C61-L1b) — despite the servicer having already acknowledged the forbearance itself was placed without consent due to a system error on their end.
 > “However, despite this approval, my account now reflects presumed standard repayment amount of approximately {$5000.00} per month, which is more than my monthly net pay salary.” (C80-L1b) — after the servicer approved $440/month in writing.
 > “On XX/XX/year>, I called back XXXX spoke with a representative who contrarily claimed there were " no notes '' on my account regarding the forbearance terms, XXXX that I had been considered past due since XXXX.” (C84-L1b) — directly contradicting what a different representative told the same borrower on a prior call.
 
