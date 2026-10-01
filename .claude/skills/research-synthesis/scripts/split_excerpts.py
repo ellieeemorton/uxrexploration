@@ -38,10 +38,10 @@ def slugify(text: str, maxlen: int = 24) -> str:
     return slug[:maxlen] if slug else "col"
 
 
-def process_transcripts(files, output_dir: Path):
+def process_transcripts(files, output_dir: Path, prefix: str = "T"):
     manifest_entries = []
     for i, path in enumerate(sorted(files, key=lambda p: p.name), start=1):
-        source_id = f"T{i}"
+        source_id = f"{prefix}{i}"
         text = path.read_text(encoding="utf-8", errors="replace")
         lines = text.splitlines()
         numbered_path = output_dir / f"{source_id}.numbered.txt"
@@ -112,6 +112,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--input-dir", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--prefix", default="T", help="ID prefix for one-file-per-unit sources (default T for transcript; "
+                                                        "use something else -- e.g. C for complaint narratives -- when the "
+                                                        "source isn't an interview transcript, to keep ID namespaces distinct "
+                                                        "across different studies' excerpts.jsonl files)")
     args = parser.parse_args()
 
     if not args.input_dir.is_dir():
@@ -127,7 +131,7 @@ def main():
     manifest = []
     if transcript_files:
         print(f"Transcripts ({len(transcript_files)}):")
-        manifest += process_transcripts(transcript_files, args.output_dir)
+        manifest += process_transcripts(transcript_files, args.output_dir, prefix=args.prefix)
     if tabular_files:
         print(f"Tabular sources ({len(tabular_files)}):")
         manifest += process_tabular(tabular_files, args.output_dir)

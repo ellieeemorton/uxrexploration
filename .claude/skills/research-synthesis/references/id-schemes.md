@@ -13,6 +13,10 @@ One transcript file = one participant. If a session has two speakers (moderator 
 
 **Why line-anchored, not turn-anchored:** transcript formatting varies too much (timestamps, speaker labels, paragraph vs. turn-per-line) to number "turns" deterministically across every format a researcher might hand in. A line number is unambiguous and always re-checkable by a script with zero parsing of transcript structure.
 
+### One-file-per-unit sources that aren't interview transcripts
+
+The same `{prefix}{n}-L{line}` scheme applies to any source where one file is one unit of analysis and the unit's own internal line breaks are meaningful — not just moderated interviews. A folder of open-ended complaint narratives, one `.txt` file per complaint, works identically: `split_excerpts.py --prefix C` (instead of the default `T`) numbers them `C1, C2, ...` so a reader can tell at a glance, across two different studies' files, that `C14-L3` is a complaint narrative and `T4-L12` is an interview transcript — useful once more than one study's `excerpts.jsonl` might be open at the same time, even though IDs only need to be unique *within* one study's own file. Pick a prefix that names the source type (`C` for complaint, `R` is already taken by the tabular scheme below) and record it in that study's own notes.
+
 ## Tabular open-ended responses (CSV export of a survey, diary study, etc.)
 
 `R{row}-Q{question}`

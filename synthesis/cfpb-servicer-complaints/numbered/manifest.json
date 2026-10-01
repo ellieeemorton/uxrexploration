@@ -1,0 +1,596 @@
+[
+  {
+    "source_id": "C1",
+    "filename": "19218391.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C2",
+    "filename": "19242951.txt",
+    "type": "transcript",
+    "line_count": 9
+  },
+  {
+    "source_id": "C3",
+    "filename": "19263590.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C4",
+    "filename": "19362555.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C5",
+    "filename": "19387321.txt",
+    "type": "transcript",
+    "line_count": 7
+  },
+  {
+    "source_id": "C6",
+    "filename": "19388851.txt",
+    "type": "transcript",
+    "line_count": 29
+  },
+  {
+    "source_id": "C7",
+    "filename": "19514910.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C8",
+    "filename": "19566709.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C9",
+    "filename": "19620450.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C10",
+    "filename": "19684118.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C11",
+    "filename": "19691529.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C12",
+    "filename": "19762099.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C13",
+    "filename": "19877026.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C14",
+    "filename": "19879407.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C15",
+    "filename": "20139764.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C16",
+    "filename": "20170419.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C17",
+    "filename": "20186517.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C18",
+    "filename": "20200692.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C19",
+    "filename": "20200848.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C20",
+    "filename": "20490848.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C21",
+    "filename": "20569483.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C22",
+    "filename": "20618216.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C23",
+    "filename": "20689301.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C24",
+    "filename": "20761108.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C25",
+    "filename": "20796722.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C26",
+    "filename": "20818792.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C27",
+    "filename": "20891857.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C28",
+    "filename": "20997960.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C29",
+    "filename": "21014518.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C30",
+    "filename": "21039607.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C31",
+    "filename": "21137741.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C32",
+    "filename": "21165456.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C33",
+    "filename": "21174122.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C34",
+    "filename": "21175815.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C35",
+    "filename": "21192282.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C36",
+    "filename": "21245214.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C37",
+    "filename": "21383731.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C38",
+    "filename": "21417379.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C39",
+    "filename": "21423969.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C40",
+    "filename": "21489481.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C41",
+    "filename": "21508023.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C42",
+    "filename": "21570319.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C43",
+    "filename": "21629587.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C44",
+    "filename": "21650312.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C45",
+    "filename": "21669203.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C46",
+    "filename": "21669348.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C47",
+    "filename": "21701776.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C48",
+    "filename": "21707062.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C49",
+    "filename": "21729515.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C50",
+    "filename": "21738688.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C51",
+    "filename": "21838590.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C52",
+    "filename": "21839595.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C53",
+    "filename": "21870375.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C54",
+    "filename": "21878664.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C55",
+    "filename": "21891210.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C56",
+    "filename": "21990137.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C57",
+    "filename": "22084643.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C58",
+    "filename": "22150254.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C59",
+    "filename": "22222914.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C60",
+    "filename": "22294111.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C61",
+    "filename": "22323913.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C62",
+    "filename": "22341738.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C63",
+    "filename": "22355136.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C64",
+    "filename": "22435951.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C65",
+    "filename": "22537801.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C66",
+    "filename": "22551301.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C67",
+    "filename": "22553718.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C68",
+    "filename": "22683213.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C69",
+    "filename": "22710332.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C70",
+    "filename": "22846670.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C71",
+    "filename": "23058760.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C72",
+    "filename": "23143344.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C73",
+    "filename": "23272733.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C74",
+    "filename": "23296311.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C75",
+    "filename": "23311497.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C76",
+    "filename": "23456709.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C77",
+    "filename": "23477473.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C78",
+    "filename": "23542344.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C79",
+    "filename": "23566647.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C80",
+    "filename": "23666174.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C81",
+    "filename": "23692925.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C82",
+    "filename": "23693642.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C83",
+    "filename": "23751534.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C84",
+    "filename": "23772849.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C85",
+    "filename": "23795762.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C86",
+    "filename": "23798703.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C87",
+    "filename": "23800259.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C88",
+    "filename": "23873423.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C89",
+    "filename": "23963809.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C90",
+    "filename": "23967979.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C91",
+    "filename": "23969903.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C92",
+    "filename": "23989850.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C93",
+    "filename": "23997587.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C94",
+    "filename": "24001127.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C95",
+    "filename": "24026585.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C96",
+    "filename": "24129004.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C97",
+    "filename": "24184370.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C98",
+    "filename": "24207749.txt",
+    "type": "transcript",
+    "line_count": 1
+  },
+  {
+    "source_id": "C99",
+    "filename": "24242700.txt",
+    "type": "transcript",
+    "line_count": 1
+  }
+]
