@@ -1,0 +1,368 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Servicer Complaint Patterns</title>
+<style>
+/* Layout: hero stat row, then stacked full-width chart cards (sub-issue bar,
+   company bar, monthly trend line, timely-response-by-category grouped bar) */
+:root {
+  --bg: #f9f9f7;
+  --surface: #fcfcfb;
+  --fg: #0b0b0b;
+  --fg-secondary: #52514e;
+  --fg-muted: #898781;
+  --grid: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --accent: #2a78d6;
+  --accent-soft: #cde2fb;
+  --good: #0ca30c;
+  --critical: #d03b3b;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d0d0d;
+    --surface: #1a1a19;
+    --fg: #ffffff;
+    --fg-secondary: #c3c2b7;
+    --fg-muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --accent: #3987e5;
+    --accent-soft: #184f95;
+    --good: #0ca30c;
+    --critical: #e66767;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d0d0d;
+  --surface: #1a1a19;
+  --fg: #ffffff;
+  --fg-secondary: #c3c2b7;
+  --fg-muted: #898781;
+  --grid: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255,255,255,0.10);
+  --accent: #3987e5;
+  --accent-soft: #184f95;
+  --good: #0ca30c;
+  --critical: #e66767;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { overflow-x: hidden; max-width: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 24px 16px 48px;
+}
+.wrap { max-width: 980px; margin: 0 auto; }
+header { margin-bottom: 8px; }
+h1 { font-size: 1.5rem; font-weight: 700; margin: 0 0 4px; text-wrap: balance; }
+.subtitle { color: var(--fg-secondary); font-size: 0.95rem; max-width: 65ch; line-height: 1.5; margin: 0 0 4px; }
+.note {
+  font-size: 0.82rem; color: var(--fg-muted); line-height: 1.5; max-width: 70ch;
+  border-left: 2px solid var(--border); padding-left: 10px; margin: 14px 0 28px;
+}
+.note b { color: var(--fg-secondary); font-weight: 600; }
+
+.stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px; margin-bottom: 28px;
+}
+.stat {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px;
+}
+.stat .value { font-size: 1.6rem; font-weight: 700; line-height: 1.1; }
+.stat .label { font-size: 0.78rem; color: var(--fg-muted); margin-top: 4px; line-height: 1.3; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 18px 18px 14px; margin-bottom: 18px;
+}
+.card h2 { font-size: 1.02rem; font-weight: 600; margin: 0 0 2px; }
+.card .deck { font-size: 0.82rem; color: var(--fg-secondary); margin: 0 0 14px; line-height: 1.4; }
+.chart-scroll { overflow-x: auto; }
+svg { display: block; overflow: visible; }
+.bar-label { font-size: 11px; fill: var(--fg-secondary); font-family: inherit; }
+.bar-value { font-size: 11px; fill: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; font-family: inherit; }
+.axis-label { font-size: 10px; fill: var(--fg-muted); font-family: inherit; }
+.gridline { stroke: var(--grid); stroke-width: 1; }
+.baseline { stroke: var(--baseline); stroke-width: 1; }
+.bar-rect { rx: 3; cursor: default; }
+.bar-rect:hover, .dot:hover { opacity: 0.82; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; font-size: 0.8rem; color: var(--fg-secondary); }
+.legend-item { display: flex; align-items: center; gap: 6px; }
+.legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.tooltip {
+  position: absolute; pointer-events: none; background: var(--fg); color: var(--bg);
+  font-size: 0.78rem; padding: 6px 9px; border-radius: 6px; white-space: nowrap;
+  transform: translate(-50%, -115%); opacity: 0; transition: opacity 0.1s; z-index: 5;
+  font-variant-numeric: tabular-nums;
+}
+.tooltip.show { opacity: 1; }
+.chart-holder { position: relative; }
+footer { margin-top: 8px; font-size: 0.78rem; color: var(--fg-muted); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Servicer Complaint Patterns</h1>
+    <p class="subtitle">1,948 real CFPB student loan servicing complaints, February&ndash;July 2026, across 54 companies.</p>
+  </header>
+  <p class="note"><b>This is real, public CFPB complaint data</b> &mdash; unlike the Oceanside repayment-plan study in this same project, which is synthetic. Quant breakdowns below cover the full population of 1,948 complaints. The qualitative read of open-ended narratives (<code>synthesis/cfpb-servicer-complaints/</code>) covers a stratified random sample of 99, documented in <code>sample-manifest.md</code> &mdash; pending researcher review before theme-building.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>What borrowers are complaining about</h2>
+    <p class="deck">Complaints by sub-issue, full population (n = 1,948).</p>
+    <div class="chart-holder chart-scroll" id="chart-subissue"></div>
+  </div>
+
+  <div class="card">
+    <h2>Who they're complaining about</h2>
+    <p class="deck">Complaints by company, top 10 of 54 (remaining 44 companies folded into Other).</p>
+    <div class="chart-holder chart-scroll" id="chart-company"></div>
+  </div>
+
+  <div class="card">
+    <h2>Volume over the window</h2>
+    <p class="deck">Complaints received per month, February&ndash;July 2026.</p>
+    <div class="chart-holder chart-scroll" id="chart-trend"></div>
+  </div>
+
+  <div class="card">
+    <h2>Which complaint types get a timely response</h2>
+    <p class="deck">Of complaints with a timely-response determination, the share resolved on time varies sharply by what the complaint was about &mdash; payment-handling complaints are close to a coin flip.</p>
+    <div class="legend">
+      <div class="legend-item"><span class="legend-swatch" style="background:var(--good)"></span>Timely response</div>
+      <div class="legend-item"><span class="legend-swatch" style="background:var(--critical)"></span>Untimely response</div>
+    </div>
+    <div class="chart-holder chart-scroll" id="chart-timely"></div>
+  </div>
+
+  <footer>Source: CFPB Consumer Complaint Database, filtered to Product = Student loan, Issue = Dealing with your lender or servicer, with a narrative, received 2026-02-01&ndash;2026-07-28. Derivation scripts in <code>demo-data/cfpb-scripts/</code>.</footer>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const DATA = {
+  total: 1948,
+  companies: 54,
+  dateRange: "Feb–Jul 2026",
+  untimelyRate: 805/1948,
+  subissue: [
+    ["Received bad information about your loan", 760],
+    ["Trouble with how payments are being handled", 606],
+    ["Problem with customer service", 245],
+    ["Need information about your loan balance or loan terms", 161],
+    ["Don't agree with the fees charged", 127],
+    ["Keep getting calls about your loan", 36],
+    ["Co-signer", 13]
+  ],
+  company: [
+    ["MOHELA", 874], ["Nelnet, Inc.", 279], ["Maximus Federal Services, Inc.", 229],
+    ["Servicer under contract with Federal Student Aid", 129], ["EdFinancial Services", 99],
+    ["SLM CORPORATION", 61], ["Central Research Inc", 61], ["Navient Solutions, LLC.", 50],
+    ["AES/PHEAA", 28], ["Climb Credit Inc.", 28], ["Other (44 companies)", 110]
+  ],
+  trend: [["Feb", 219], ["Mar", 385], ["Apr", 456], ["May", 317], ["Jun", 360], ["Jul", 211]],
+  timelyByIssue: [
+    ["Keep getting calls about your loan", 34, 2],
+    ["Received bad information about your loan", 494, 266],
+    ["Don't agree with the fees charged", 84, 43],
+    ["Need information about your loan balance or loan terms", 91, 70],
+    ["Problem with customer service", 125, 120],
+    ["Trouble with how payments are being handled", 302, 304],
+    ["Co-signer", 13, 0]
+  ]
+};
+
+function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+function measureTextWidth(text, cls) {
+  const svg = el("svg", { width: 0, height: 0, style: "position:absolute; visibility:hidden;" });
+  const t = el("text", { class: cls });
+  t.textContent = text;
+  svg.appendChild(t);
+  document.body.appendChild(svg);
+  const w = t.getBBox().width;
+  document.body.removeChild(svg);
+  return w;
+}
+const tooltip = document.getElementById("tooltip");
+function showTip(evt, html) {
+  tooltip.innerHTML = html;
+  tooltip.style.left = evt.clientX + window.scrollX + "px";
+  tooltip.style.top = evt.clientY + window.scrollY + "px";
+  tooltip.classList.add("show");
+}
+function hideTip() { tooltip.classList.remove("show"); }
+
+// ---- Stat tiles ----
+(function renderStats() {
+  const stats = [
+    [DATA.total.toLocaleString(), "Total complaints"],
+    [DATA.companies, "Companies represented"],
+    [DATA.dateRange, "Date range"],
+    [(DATA.untimelyRate * 100).toFixed(0) + "%", "Received an untimely response"]
+  ];
+  const host = document.getElementById("stats");
+  stats.forEach(([value, label]) => {
+    const d = document.createElement("div");
+    d.className = "stat";
+    d.innerHTML = `<div class="value">${value}</div><div class="label">${label}</div>`;
+    host.appendChild(d);
+  });
+})();
+
+// ---- Horizontal bar chart (single series) ----
+function horizontalBar(hostId, rows, opts) {
+  opts = opts || {};
+  const host = document.getElementById(hostId);
+  const labelW = Math.ceil(Math.max(...rows.map(r => measureTextWidth(r[0], "bar-label")))) + 14;
+  const rowH = 30, gap = 10;
+  const maxVal = Math.max(...rows.map(r => r[1]));
+  const plotW = 560;
+  const width = labelW + plotW + 60;
+  const height = rows.length * (rowH + gap) + 24;
+  const svg = el("svg", { viewBox: `0 0 ${width} ${height}`, width: width, height: height, role: "img", "aria-label": opts.aria || "bar chart" });
+
+  // gridlines at 0/25/50/75/100%
+  for (let f = 0; f <= 1; f += 0.25) {
+    const x = labelW + f * plotW;
+    svg.appendChild(el("line", { x1: x, x2: x, y1: 4, y2: height - 20, class: "gridline" }));
+  }
+  svg.appendChild(el("line", { x1: labelW, x2: labelW, y1: 4, y2: height - 20, class: "baseline" }));
+
+  rows.forEach((r, i) => {
+    const [name, value] = r;
+    const y = 4 + i * (rowH + gap);
+    const w = (value / maxVal) * plotW;
+    const label = el("text", { x: labelW - 10, y: y + rowH / 2 + 4, "text-anchor": "end", class: "bar-label" });
+    label.textContent = name;
+    svg.appendChild(label);
+    const rect = el("rect", { x: labelW, y: y, width: Math.max(w, 2), height: rowH, fill: "var(--accent)", class: "bar-rect", rx: 3 });
+    rect.addEventListener("mousemove", e => showTip(e, `<b>${name}</b><br>${value.toLocaleString()} complaints`));
+    rect.addEventListener("mouseleave", hideTip);
+    svg.appendChild(rect);
+    const val = el("text", { x: labelW + w + 8, y: y + rowH / 2 + 4, class: "bar-value" });
+    val.textContent = value.toLocaleString();
+    svg.appendChild(val);
+  });
+  host.appendChild(svg);
+}
+
+horizontalBar("chart-subissue", DATA.subissue, { aria: "Complaints by sub-issue" });
+horizontalBar("chart-company", DATA.company, { aria: "Complaints by company" });
+
+// ---- Line chart (monthly trend) ----
+(function renderTrend() {
+  const host = document.getElementById("chart-trend");
+  const data = DATA.trend;
+  const width = 760, height = 220, padL = 50, padR = 20, padT = 16, padB = 32;
+  const plotW = width - padL - padR, plotH = height - padT - padB;
+  const maxVal = Math.max(...data.map(d => d[1]));
+  const niceMax = Math.ceil(maxVal / 100) * 100;
+  const svg = el("svg", { viewBox: `0 0 ${width} ${height}`, width: width, height: height, role: "img", "aria-label": "Monthly complaint volume" });
+
+  // gridlines + y labels
+  const steps = 4;
+  for (let s = 0; s <= steps; s++) {
+    const v = (niceMax / steps) * s;
+    const y = padT + plotH - (v / niceMax) * plotH;
+    svg.appendChild(el("line", { x1: padL, x2: width - padR, y1: y, y2: y, class: "gridline" }));
+    const t = el("text", { x: padL - 8, y: y + 3, "text-anchor": "end", class: "axis-label" });
+    t.textContent = v;
+    svg.appendChild(t);
+  }
+  svg.appendChild(el("line", { x1: padL, x2: padL, y1: padT, y2: padT + plotH, class: "baseline" }));
+
+  const stepX = plotW / (data.length - 1);
+  const points = data.map((d, i) => {
+    const x = padL + i * stepX;
+    const y = padT + plotH - (d[1] / niceMax) * plotH;
+    return [x, y];
+  });
+
+  // area fill (soft)
+  const areaPath = "M " + points.map(p => p.join(",")).join(" L ") +
+    ` L ${points[points.length - 1][0]},${padT + plotH} L ${points[0][0]},${padT + plotH} Z`;
+  svg.appendChild(el("path", { d: areaPath, fill: "var(--accent-soft)", opacity: 0.5, stroke: "none" }));
+
+  // line
+  const linePath = "M " + points.map(p => p.join(",")).join(" L ");
+  svg.appendChild(el("path", { d: linePath, fill: "none", stroke: "var(--accent)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+
+  // dots + month labels
+  points.forEach((p, i) => {
+    const dot = el("circle", { cx: p[0], cy: p[1], r: 4, fill: "var(--accent)", class: "dot" });
+    dot.addEventListener("mousemove", e => showTip(e, `<b>${data[i][0]} 2026</b><br>${data[i][1].toLocaleString()} complaints`));
+    dot.addEventListener("mouseleave", hideTip);
+    svg.appendChild(dot);
+    const t = el("text", { x: p[0], y: padT + plotH + 20, "text-anchor": "middle", class: "axis-label" });
+    t.textContent = data[i][0];
+    svg.appendChild(t);
+  });
+
+  host.appendChild(svg);
+})();
+
+// ---- Grouped/stacked horizontal bar: timely vs untimely by sub-issue ----
+(function renderTimely() {
+  const host = document.getElementById("chart-timely");
+  const rows = DATA.timelyByIssue.map(([name, yes, no]) => {
+    const tot = yes + no;
+    return { name, yes, no, tot, pct: tot ? yes / tot : 0 };
+  }).sort((a, b) => b.pct - a.pct);
+
+  const labelW = Math.ceil(Math.max(...rows.map(r => measureTextWidth(r.name, "bar-label")))) + 14;
+  const plotW = 560;
+  const rowH = 30, gap = 10;
+  const width = labelW + plotW + 90;
+  const height = rows.length * (rowH + gap) + 24;
+  const svg = el("svg", { viewBox: `0 0 ${width} ${height}`, width: width, height: height, role: "img", "aria-label": "Timely response rate by complaint sub-issue" });
+
+  [0, 0.25, 0.5, 0.75, 1].forEach(f => {
+    const x = labelW + f * plotW;
+    svg.appendChild(el("line", { x1: x, x2: x, y1: 4, y2: height - 20, class: "gridline" }));
+  });
+  svg.appendChild(el("line", { x1: labelW, x2: labelW, y1: 4, y2: height - 20, class: "baseline" }));
+
+  rows.forEach((r, i) => {
+    const y = 4 + i * (rowH + gap);
+    const label = el("text", { x: labelW - 10, y: y + rowH / 2 + 4, "text-anchor": "end", class: "bar-label" });
+    label.textContent = r.name;
+    svg.appendChild(label);
+
+    const yesW = r.pct * plotW;
+    const noW = plotW - yesW;
+    const yesRect = el("rect", { x: labelW, y: y, width: Math.max(yesW, r.yes ? 2 : 0), height: rowH, fill: "var(--good)", class: "bar-rect", rx: 3 });
+    yesRect.addEventListener("mousemove", e => showTip(e, `<b>${r.name}</b><br>Timely: ${r.yes} of ${r.tot} (${(r.pct * 100).toFixed(0)}%)`));
+    yesRect.addEventListener("mouseleave", hideTip);
+    svg.appendChild(yesRect);
+    if (r.no > 0) {
+      const noRect = el("rect", { x: labelW + yesW + (yesW > 0 ? 2 : 0), y: y, width: Math.max(noW - (yesW > 0 ? 2 : 0), 2), height: rowH, fill: "var(--critical)", class: "bar-rect", rx: 3 });
+      noRect.addEventListener("mousemove", e => showTip(e, `<b>${r.name}</b><br>Untimely: ${r.no} of ${r.tot} (${((1 - r.pct) * 100).toFixed(0)}%)`));
+      noRect.addEventListener("mouseleave", hideTip);
+      svg.appendChild(noRect);
+    }
+    const val = el("text", { x: labelW + plotW + 8, y: y + rowH / 2 + 4, class: "bar-value" });
+    val.textContent = (r.pct * 100).toFixed(0) + "%";
+    svg.appendChild(val);
+  });
+  host.appendChild(svg);
+})();
+</script>
