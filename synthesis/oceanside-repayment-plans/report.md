@@ -1,5 +1,7 @@
 # Repayment Plan Comparison Tool — Research Findings
 
+> **Note on the data:** Oceanside Loan Servicing, the comparison tool described, and all nine participants (P1–P9) are synthetic — built as demo data to test a qualitative-research-synthesis process, not findings from a real study on a real product. The methodology, evidence grading, and analysis below were produced exactly as they would be for real research, but nothing in this report should be read as describing an actual company, tool, or person.
+
 ## Background and hypotheses
 
 Oceanside Loan Servicing has seen a rise in support tickets from borrowers calling in after using the online repayment plan comparison tool, asking questions the tool is supposed to answer. Going in, it wasn't clear whether this reflects a usability problem with the tool itself, a trust problem with the numbers it shows, or borrowers seeking reassurance regardless of how clear the tool is. This study tested three hypotheses, moderated sessions combining a think-aloud comparison task with follow-up questions about trust and decision-making. They're referenced by label throughout this report:
