@@ -53,13 +53,13 @@ Each stratum below uses its own N (the stratum's sampled count, per `sample-mani
 
 N = 13, threshold = max(2, ceil(2.6)) = 3.
 
-Support: more than half (8 of 13) — [C1-L1, C4-L1, C6-L9, C19-L1b, C21-L1, C47-L1, C73-L1, C83-L1b]
-Counter-evidence: some (5 of 13) — [C29-L1, C38-L1, C54-L1, C57-L1, C33-L1]
+Support: about half (7 of 13) — [C1-L1, C4-L1, C6-L9, C19-L1b, C21-L1, C47-L1, C83-L1b]
+Counter-evidence: about half (6 of 13) — [C29-L1, C38-L1, C54-L1, C57-L1, C33-L1, C73-L1]
 
 > “I was enrolled in the SAVE plan and now being pushed to another plan. However, the correct payment terms and monthly payment fees can not be determined. Thus making it impossible for me to change plans. Interest has been accruing since XX/XX/year> and there is no avenue for me to continue payment.” (C1-L1)
 > “Of the {$23000.00} paid over 23 years, only {$8900.00} ( 37.9 % ) went toward principal reduction. The remaining {$14000.00} ( 62.1 % ) was consumed by interest.” (C19-L1b)
 
-Counter-evidence detail: the remaining 5 of 13 are a genuine mix with no shared sub-theme of their own — a wrong portal balance with no ledger (C29), an undisclosed variable interest rate at signing (C38, arguably interest-adjacent but about disclosure, not accrual), a years-long forgiveness-paperwork wait that isn't about fees at all (C54), a billing dispute after a medical withdrawal (C57), and one `adjacent`-tagged narrative about a different, unrelated grievance (C33). The CFPB's "fees charged" label, at least here, functions more as "something costs more than the borrower expected," with interest capitalization as the dominant specific mechanism.
+Counter-evidence detail: the remaining 6 of 13 are a genuine mix with no shared sub-theme of their own — a wrong portal balance with no ledger (C29), an undisclosed variable interest rate at signing (C38, arguably interest-adjacent but about disclosure, not accrual), a years-long forgiveness-paperwork wait that isn't about fees at all (C54), a billing dispute after a medical withdrawal (C57), one `adjacent`-tagged narrative about a different, unrelated grievance (C33), and a PSLF/IDR qualifying-payment-crediting dispute that is about forbearance credit, not fees or interest (C73 — moved here on verification review; it was originally miscited as support). The CFPB's "fees charged" label, at least here, functions more as "something costs more than the borrower expected," with interest capitalization as the dominant specific mechanism, but barely over "about half" rather than "more than half" once mis-cited support is corrected.
 
 ### Theme: "Trouble with how payments are being handled" narrowly and consistently means payments recorded, applied, or billed differently than the borrower was told to expect
 
@@ -77,24 +77,24 @@ Counter-evidence detail: the remaining 5 of 18 are present but don't carry the "
 
 N = 18, threshold = max(2, ceil(3.6)) = 4.
 
-Support: more than half (11 of 18) — [C3-L1, C7-L1, C17-L1, C31-L1, C53-L1, C58-L1, C62-L1, C77-L1, C87-L1, C91-L1, C92-L1]
-Counter-evidence: some (7 of 18) — [C10-L1, C12-L1, C40-L1, C43-L1, C66-L1, C81-L1, C85-L1]
+Support: more than half (10 of 18) — [C3-L1, C7-L1, C17-L1, C31-L1, C58-L1, C62-L1, C77-L1, C87-L1, C91-L1, C92-L1]
+Counter-evidence: some (8 of 18) — [C10-L1, C12-L1, C40-L1, C43-L1, C66-L1, C81-L1, C85-L1, C53-L1]
 
 > “In total, I have now sent nine ( 9 ) certified letters, and MOHELA has not provided a substantive written response to these letters.” (C62-L1)
 > “I was then placed on hold for over XXXX hours without ever speaking to anyone. I eventually had to hang up after XXXX hours and XXXX minutes without resolution.” (C92-L1)
 
-This stratum is the clearest internal confirmation of the cross-cutting non-responsiveness theme: most of what gets filed as a "customer service" problem specifically is the servicer failing to substantively engage, not rudeness or a single bad interaction.
+This stratum is the clearest internal confirmation of the cross-cutting non-responsiveness theme: most of what gets filed as a "customer service" problem specifically is the servicer failing to substantively engage, not rudeness or a single bad interaction. (C53 was moved from support to counter-evidence on verification review: the servicer there gave a specific, substantive stated reason for refusal — "because the loans were already discharged... they would not review the misconduct claim" — which is the same pattern this stratum's own C40 and the cross-cutting theme both correctly treat as a case of *disputing an answer*, not receiving none.)
 
 ### Theme: "Received bad information about your loan" is broad in surface detail; roughly a third involve information that was later directly contradicted, and the remaining majority share no single pattern
 
-N = 18, threshold = max(2, ceil(3.6)) = 4. The 7-of-18 contradiction slice clears this stratum's threshold (4) and so is reported as a proper theme — but note it still describes well under half the stratum: the remaining 11 of 18 narratives range across credit-report errors, incomplete refunds, undisclosed consolidation consequences, and billing after a legal discharge, each represented by only 1-2 narratives apiece with no shared sub-pattern among them.
+N = 18, threshold = max(2, ceil(3.6)) = 4. The 6-of-18 contradiction slice clears this stratum's threshold (4) and so is reported as a proper theme — but note it still describes well under half the stratum: the remaining 12 of 18 narratives range across credit-report errors, incomplete refunds, undisclosed consolidation consequences, buck-passing/non-response, and billing after a legal discharge, each represented by only 1-2 narratives apiece with no shared sub-pattern among them.
 
-Support: some (7 of 18) — [C32-L1, C49-L1, C52-L1, C59-L1, C71-L1, C84-L1b, C97-L1b]
-Counter-evidence: most of the stratum (11 of 18) does not share this specific sub-pattern — [C5-L3, C9-L1, C25-L1, C30-L1, C67-L1, C76-L1, C78-L1, C79-L1, C89-L1, C95-L1, C96-L1]
+Support: some (6 of 18) — [C32-L1, C49-L1, C52-L1, C59-L1, C84-L1b, C97-L1b]
+Counter-evidence: most of the stratum (12 of 18) does not share this specific sub-pattern — [C5-L3, C9-L1, C25-L1, C30-L1, C67-L1, C76-L1, C78-L1, C79-L1, C89-L1, C95-L1, C96-L1, C71-L1]
 
 > “On XX/XX/XXXX, MOHELA denied my SCRA request, stating that I have " no association '' with the loan. This directly contradicts their own records identifying me as the student tied to the obligation.” (C32-L1)
 
-This label is the **widest-ranging** of the seven in this sample: 18 sampled narratives touch at least ten distinguishable underlying problems (wrong account status, denied relief contradicting a federal determination, conflicting balances, blame-shifting between servicer and Department of Education, undisclosed consolidation effects, post-discharge billing, uncorrected credit reporting, and more), with no single sub-pattern covering a majority.
+This label is the **widest-ranging** of the seven in this sample: 18 sampled narratives touch at least ten distinguishable underlying problems (wrong account status, denied relief contradicting a federal determination, conflicting balances, blame-shifting between servicer and Department of Education, undisclosed consolidation effects, post-discharge billing, uncorrected credit reporting, and more), with no single sub-pattern covering a majority. (C71 was moved out of the contradiction support list on verification review: "neither MOHELA nor the Department of Education has provided a clear explanation" is buck-passing/non-response, not a case of information later being contradicted — it is correctly counted in the cross-cutting non-responsiveness theme instead.)
 
 ### Theme: "Keep getting calls about your loan" narrowly means unwanted call/contact volume, in this sample
 
@@ -112,13 +112,13 @@ Counter-evidence detail: 3 of 8 are filed under this label but center on somethi
 
 N = 16, threshold = max(2, ceil(3.2)) = 4.
 
-Support: more than half (10 of 16) — [C18-L1, C22-L1, C23-L1, C36-L1, C44-L1, C50-L1, C56-L1, C68-L1, C70-L1, C75-L1]
-Counter-evidence: some (6 of 16) — [C13-L1, C35-L1, C37-L1, C51-L1a, C64-L1, C93-L1]
+Support: more than half (9 of 16) — [C18-L1, C22-L1, C23-L1, C36-L1, C50-L1, C56-L1, C68-L1, C70-L1, C75-L1]
+Counter-evidence: some (7 of 16) — [C13-L1, C35-L1, C37-L1, C51-L1a, C64-L1, C93-L1, C44-L1]
 
 > “Aidvantage has told me several wildly different amounts I will owe, from $ XXXX to $ XXXX. They can not tell me what numbers they are using to calculate these figures.” (C50-L1)
 > “I later received written confirmation that my request is in process under case number XXXX, but was also told there is no status mechanism available and that neither the Federal Student Aid contact center nor my servicer can provide a status update.” (C36-L1)
 
-This label functions less like "I want to look up a number" and more like a specific instance of the cross-cutting non-responsiveness theme (8 of its 10 supporting IDs also appear in that theme's support list).
+This label functions less like "I want to look up a number" and more like a specific instance of the cross-cutting non-responsiveness theme (8 of its 9 supporting IDs also appear in that theme's support list). (C44 — "told I would have an offer within 45 days. This has not happened" — was moved to counter-evidence on verification review: it's a missed-promise complaint more than a could-not-get-a-figure complaint, a weaker fit than the other 9.)
 
 ### Not themed — methodology caveat: "Co-signer" (N = 8)
 
